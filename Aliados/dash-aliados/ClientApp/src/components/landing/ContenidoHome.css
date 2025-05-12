@@ -1,0 +1,1065 @@
+:root { 
+  --font-family-sans-serif: "Lato";
+  --negro-zoco: #2D3035;
+  --verde-zoco: #b4c400;
+  --gris-zoco: #E5E8EE;
+}
+
+html {
+  font-size: 20px;
+  color: var(--negro-zoco);
+  scroll-behavior: smooth;
+} 
+
+body {
+  font-family: "Lato", serif;
+  background: var(--gris-zoco);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+h1, h3{
+  font-weight: 600;
+}
+
+p {
+  margin-top: 0.5rem;
+  line-height: 1.5rem;
+}
+
+.title {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  font-style: none;
+}
+
+/* NAVBAR */
+
+div#navbarCollapse {
+  margin-left: 2% !important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.fixed-top.bg-dark {
+background-color: var(--gris-zoco) !important;
+box-shadow: 0.4rem 0.4px 0.4rem #cacdd3, -0.4rem -0.4rem 0.4rem #ffffff !important;
+}
+
+.container-fluid{
+  flex-wrap: inherit !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.navbar-brand {
+  width: 6% !important;
+}
+
+.Zoco-Servicio-Pago {
+ 
+  width: 8vw !important;
+  height: auto !important;
+  margin-left: 25% !important;
+  cursor: pointer !important;
+}
+
+.navbar-brand img:hover {
+  opacity: 90%;
+}
+
+.navbar-nav {
+  list-style: none !important;
+  margin-left: 3em !important;
+}
+
+.navbar-nav li {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 1vw !important;
+  line-height: 1.3rem !important;
+}
+
+.navbar-item a {
+  text-decoration: none !important;
+  color: var(--negro-zoco) !important;
+  font-weight: 700 !important;
+  font-size: 1.1rem;
+  transition: all 0.3s !important;
+  padding-top: 0.2em !important;
+  padding-bottom: 0.2em !important;
+}
+
+.navbar-item a:hover {
+  color: var(--verde-zoco) !important;
+  background-color: transparent !important;
+}
+
+.navbar-btn {
+  align-items: center !important;
+  text-align: left !important;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  border-top: 2px solid var(--verde-zoco) !important;
+color: var(--negro-zoco) !important;
+}
+
+.main-btn {
+  background-color: var(--verde-zoco) !important;
+  border: none !important;
+  border-radius: 50px !important;
+  color: white !important;
+  padding: 0.6vw 1vw !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+  cursor: pointer !important;
+  transition: all 0.4s !important;
+  margin-left: 3rem !important;
+  line-height: 1.2rem !important;
+}
+
+.main-btn-contacto {
+  background-color: var(--verde-zoco) !important;
+  border: #b4c400  3px !important;
+  border-style: solid  !important;
+  border-radius: 50px !important;
+  color: var(--negro-zoco) !important;
+  padding: 0.6vw 1vw !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+  cursor: pointer !important;
+  transition: all 0.4s !important;
+  line-height: 1.2rem !important;
+}
+
+.main-btn-contacto:hover {
+  background-color: transparent !important;
+  border: #b4c400  3px !important;
+  border-style: solid  !important;
+  color: var(--verde-zoco) !important;
+}
+
+
+.main-btn:hover {
+  background-color: var(--negro-zoco) !important;
+  color: white !important;
+}
+
+.main-btn-cockie {
+  background-color: var(--verde-zoco) !important;
+  border: none !important;
+  border-radius: 50px !important;
+  color: white !important;
+  padding: 0.6vw 1vw !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  font-weight: 800 !important;
+  font-size: 1rem !important;
+  cursor: pointer !important;
+  transition: all 0.4s !important;
+  /* margin-left: 3rem !important; */
+  line-height: 1.2rem !important;
+  font-size: 12px !important;
+}
+
+.main-btn-cockie:hover {
+  background-color: var(--negro-zoco) !important;
+  color: white !important;
+}
+
+#scrollToTopBtn {
+  display: none; /* Ocultar el botón inicialmente */
+}
+
+.floating-button-container {
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  display: flex !important;
+  justify-content: flex-end!important;
+  z-index: 999 !important;
+}
+
+
+/* HERO */
+.page-hero {
+  position: relative;
+  overflow: hidden;
+  overflow: hidden;
+  margin-top: 5vh;
+}
+
+.content-video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.content-video::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 97%;
+  content: '';
+  background-image: linear-gradient(
+      to right, 
+      #000000, 
+      rgba(0, 0, 0, 0) 80%,
+      rgba(0, 0, 0, 0)
+  );
+}
+
+.content-video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%;
+
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 12vw;
+  width: 75%;
+}
+
+#hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+#hero-p {
+  text-align: left;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+
+.colorw {
+  color: white;
+}
+
+.colorz {
+  color: var(--verde-zoco);
+}
+
+/* CONTENIDO */
+.contenido {
+  margin-left: 12vw;
+  margin-right: 12vw;
+}
+
+.cuadro-degradado {
+  border-radius: 40px;
+  background: linear-gradient(135deg, #ffffff, #E5E8EE);
+  box-shadow:  5px 4px 16px #D0D7E2;
+
+  padding: 2.8rem 2rem;
+}
+
+/* PROMESA DE PAGOS */
+.promesa {
+  padding: 5vw 6vw;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.promesa-title {
+  font-size: 2rem;
+}
+
+.promesa-p {
+  margin-bottom: 0;
+}
+
+/* CARACTERÍSTICAS */
+.caracteristicas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 2%;
+  margin-bottom: 5rem;
+}
+
+.caract-item {
+  width: 17.8vw;
+  height: 30vw;
+  border-radius: 30px;
+  display: flex;
+}
+
+#bg1 {
+  background-image: linear-gradient(
+      to top,
+        #1b1f36,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0)
+      ), url("../../assets/img/bg1.png");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#bg2 {
+  background-image: linear-gradient(
+      to top,
+        #1b1f36,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0)
+      ), url("../../assets/img/bg2.png");;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#bg3 {
+  background-image: linear-gradient(
+      to top,
+        #1b1f36,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0)
+      ), url("../../assets/img/bg3.png");;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#bg4 {
+  background-image: linear-gradient(
+      to top,
+        #1b1f36,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0)
+      ), url("../../assets/img/bg4.png");;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.caract-title {
+  align-self: flex-end;
+  text-align: left;
+  margin: 1.3rem;
+  color: #fff;
+  font-size: 2vw !important;
+  font-weight: 700;
+  line-height: 2.2vw;
+}
+
+/* ¿POR QUÉ ZOCO? */
+.porque-zoco {
+  margin-bottom: 4rem;
+}
+
+.porque-izq, .porque-der {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 3vw;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.porque-img {
+  width: 100%;
+  height: auto;
+  border-radius: 40px;
+}
+
+.porque-texto {
+  max-height: 100% !important;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.porque-texto-padding {
+  padding: 3vw;
+  max-height: 100% !important;
+}
+
+/* HARDWARE */
+.hardware {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4vw;
+  margin-bottom: 2rem;
+}
+.hardware-texto{
+  display: flex;
+  grid-column-gap: 3vw;
+  align-items: center;
+  justify-items: center;
+}
+
+.texto-postnet{
+  width: 70%;
+}
+
+.div-img-posnet{
+  display: flex;
+  width: auto;
+}
+
+.hardware-img {
+  width: 450px;
+}
+
+.hardware-texto {
+  padding-left: 1vw;
+  padding-right: 3vw;
+}
+
+/* PRECIOS  */
+.precios-cuadro {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1%;
+  grid-row-gap: 3%;
+  margin-top: 1.5rem;
+  margin-bottom: 1.4vw;
+}
+
+.precios-item {
+  border-radius: 20px;
+  height: 13vw;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 2vw;
+  margin-bottom: 0;
+}
+
+.precios-item-texto {
+  font-size: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 1.1rem;
+}
+
+.precios-sub p {
+  margin-bottom: 2rem;
+}
+
+/* Medios de pago */
+.medios {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: right;
+  padding: 0rem 0.5rem;
+  margin-top: 1.5em;
+}
+
+.medios-texto {
+  width: 25%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.medios-texto p {
+  line-height: 1.1;
+  margin-top: 1rem;
+}
+
+.medios-img {
+  width: 100%;
+  height: auto;
+}
+.picture-seccion-medios-pago{
+  width: 75%;
+}
+
+/* Precios texto */
+.precios-sub {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.precios-sub p {
+  margin: 0.3rem;
+  font-style: italic;
+}
+
+
+i.bi.bi-arrow-up-circle-fill {
+  color: var(--verde-zoco);
+  font-size: 45px;
+}
+
+/*-----PREGUNTAS-----*/
+.pregunta{
+  max-height: 100% !important;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titulo-preguntas{
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+hr{
+  border: 1px solid var(--verde-zoco);
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+details{
+  padding: 0.5em;
+}
+
+summary {
+  list-style: none !important;
+  /* font-size: 1.2em; */
+  font-weight: bold !important;
+  line-height: 1.3rem !important;
+
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+
+  position: relative !important;
+  align-items: center !important;
+  transition: all 0.4s !important;
+}
+details summary::-webkit-details-marker {
+  display: none !important; /* Oculta flecha por defecto en navegadores basados en WebKit (Chrome, Safari, etc.)*/
+}
+
+
+/*NUEVO LOGO SUMMARY*/
+#seccion-preguntas {
+  padding: 1rem !important;
+}
+summary::after {
+  /* content: url("assets/img/plus.png"); */
+  content: url("../../assets/img/plus.png") !important; 
+  width: 50px !important;
+  height: 50px !important;
+  font-weight: bold !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: flex-end !important;
+  list-style: none !important;/* Oculta el marcador de lista predeterminado */
+  padding-top: 10px !important;
+}
+
+details[open] > summary::after {
+  /* content: url("assets/img/minus.png"); */
+  content: url("../../assets/img/minus.png") !important; 
+  font-weight: bold !important;
+  position: relative !important;
+  transition: all 0.4s !important;
+}
+
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out !important;
+}
+
+@keyframes sweep {
+  /*transicion mostrar texto de izquierda a derecha*/
+      /* 0%    {opacity: 0; transform: translateX(-10px)}
+      100%  {opacity: 1; transform: translateX(0)} */
+
+  /*transicion mostrar texto de arriba hacia abajo*/
+  0%    {opacity: 0; transform: translateY(-10px)}
+  100%  {opacity: 1; transform: translateY(0)}
+}
+
+.padding-pregunta{
+  max-height: 100% !important;
+  padding-right: 1vw !important;
+  padding-left: 1vw !important;
+}
+
+.picture-medios-img{
+  margin-left: 8vw !important;
+  margin-right: 8vw !important;
+}
+
+#que-tipo-tarjeta h4, #que-tipo-tarjeta picture{
+  display: contents !important;
+}
+.p-prop-preguntas{
+  padding-left: 2vw !important;
+  padding-right: 2vw !important;
+}
+
+/*--------------*/
+/* FOOTER */
+.footer {
+  margin-top: 2rem;
+  margin-bottom: 2vw;
+  padding: 2vw;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--verde-zoco);
+  font-weight: bold;
+}
+
+/*---------RESPONSIVE-------------*/
+
+/* BREAKPOINT 1920 */
+@media (max-width: 1920px) {
+  html {
+      font-size: 16px;
+  }
+  .porque-izq , .porque-der{
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+  }
+}
+
+/* BREAKPOINT TABLET */
+@media (max-width: 1000px) {    
+  .cuadro-degradado {
+      border-radius: 30px;
+  }
+
+  .navbar-brand {
+      width: 6%;
+  }
+
+  .navbar-brand .Zoco-Servicio-Pago {
+      width: 10vw;
+      height: auto;
+  }
+
+  /*Nav menu items*/
+  .navbar-nav{
+      margin-left: 0;
+      margin-bottom: 0.5rem !important;
+  }
+
+  .navbar-nav li{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 0.5rem;
+  }
+
+  .main-btn {
+      padding: 0.8rem;
+      margin-left: 0;
+  }
+  
+  /* Hero */
+  .page-hero {
+      margin-top: 3vh;
+  }
+
+  .hero-text {
+      width: 100%;
+  }
+
+  #hero-title {
+      /* font-size: 3rem; */
+      width: 90%;
+  }
+
+  #hero-p {
+      display: none;
+  }
+
+  .gradient-container::after {
+      width: 100%;
+      background-image: linear-gradient(
+      to top, 
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0) 70%
+      );
+  }
+
+  .background-video {
+      left: 30%;
+      transform: translate(-50%);
+  }
+
+  /* Promesa de pagos */
+  .promesa {
+      padding: 5vw 5vw;
+  }
+  .promesa-title{
+      font-size: 2rem;
+  }
+
+  /* Características */
+  .caract-item {
+      width: 37.1vw;
+      height: 50vw;
+  }
+
+  .caracteristicas {
+      grid-template-columns: 1fr 1fr;
+      grid-row-gap: 2%;
+      margin-bottom: 4rem;
+  }
+
+  .caract-title {
+      margin: 1.8rem;
+      font-size: 4vw !important;
+      line-height: 4vw;
+  }
+
+  .porque-izq, .porque-der {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 2rem;
+  }
+
+  .porque-texto {
+      order: 1;
+      margin-bottom: 4vw;
+      padding: 2.5vw;
+  }
+
+  .porque-img {
+      order: 2;
+  }
+
+  .precios-cuadro {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 2%;
+      grid-row-gap: 4%;
+      margin-bottom: 7vw;
+  }
+
+  /* Hardware */
+  .hardware-img {
+      width:25vw;
+  }
+
+  .medios {        
+      display: flex;
+      align-items: center;
+      text-align: center;
+      padding: 0rem 0.5rem;
+      width: 100%;
+      flex-direction: column;
+      margin-top: 4.5rem;
+  }
+
+  .medios-texto{
+      width: 100%;
+      margin-bottom: 0;
+  }
+  .medios-img{
+      width: 100%;
+  }
+
+  /*Preguntas*/
+  .padding-pregunta {
+      max-height: 100% !important;
+      padding-right: 0v!important;
+      padding-left: 0 !important;
+  }
+  hr{
+      margin-left: 0;
+      margin-right: 0;
+  }
+  .p-prop-preguntas {
+      padding-left: 0;
+      padding-right: 0;
+  }
+  /*-------------*/
+
+  /* Footer */
+  .footer {
+      padding: 3vw;
+  }
+}
+
+/* BREAKPOINT MOBILE 770PX */
+@media (max-width: 770px) {
+  html {
+      font-size: 18px;
+  }
+
+  .contenido {
+      margin-left: 6vw;
+      margin-right: 6vw;
+  }
+
+  /* NavBar */
+  .Zoco-Servicio-Pago{
+      width: 20vw !important;
+  }
+
+  .navbar-nav{
+      margin-left: 0 !important;
+  }
+  .navbar-nav li{
+      display: inline-block !important;
+      margin-left: 0 !important;
+      padding: 0.5rem !important;
+  }
+  .main-btn{
+      margin-left: 0 !important;
+
+      padding: 0.8rem !important;
+  }
+
+  /* Hero */
+  #hero-title {
+      /* font-size: 7vw; */
+      font-size: 1.9rem !important;
+      width: 100%;
+      margin-bottom: 1rem;
+  }
+
+  .content-video{
+      padding-bottom: 67%;
+      height: 170vw;
+  }
+
+  .content-video::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      content: '';
+      background-image: linear-gradient(
+          to top, 
+          #000000, 
+          rgba(0, 0, 0, 0) 65%,
+          rgba(0, 0, 0, 0)
+      );
+  }
+
+  .content-video video{
+      height: 170vw !important;
+      object-fit: cover !important;
+      object-position: 68% 0%;
+  }
+  
+  .caract-item {
+      width: 75.8vw;
+      height: 97vw;
+      width: auto;
+  }
+
+  .promesa{
+      margin-top: 2em;
+      margin-bottom: 2.5em;
+  }
+  .promesa-title{
+      font-size: 5vw;
+      line-height: 2rem;
+      margin-bottom: 0.5em;
+  }
+  .promesa-p{
+      line-height: 1.3rem;
+  }
+
+  .caracteristicas {
+      grid-template-columns: 1fr;
+      grid-row-gap: 2%;
+      margin-bottom: 11rem;
+  }
+
+  .caract-title {
+      margin: 1.8rem;
+      font-size: 8vw !important;
+      line-height: 8vw;
+  }
+  .porque-zoco{
+      margin-bottom: 3rem;
+  }
+  .porque-img {
+      width: 100%;
+      height: auto;
+      border-radius: 30px;
+  }
+
+  .porque-izq, .porque-der {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+  }
+
+  .hardware{
+      margin-bottom: 2em;
+  }
+
+ .hardware-texto{
+  display: flex;
+
+  grid-column-gap: 3vw;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column-reverse;
+
+ }
+
+  .texto-postnet{
+      display: block;
+      width: 100%;
+      justify-content: start;
+      
+  }
+  .div-img-posnet{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+  }
+  .hardware-img{
+      width: 60vw;
+  }
+
+
+  .precios-cuadro {
+      display: grid;
+      grid-template-columns: 1fr;
+      column-gap: 2%;
+      grid-row-gap: 2%;
+      margin-bottom: 18vw;
+  }
+
+  .precios-item-texto {
+      font-size: 0.9rem;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0;
+      margin-top: 0;
+      line-height: 1.1rem;
+      padding: 1.6rem;
+  }
+  .picture-seccion-medios-pago{
+      margin: 0 auto;
+  }
+  .picture-medios-img{
+      width: 100%;
+      margin: 0 auto;
+  }
+  .medios {
+      width: auto;
+      align-items: normal;
+      text-align: center;
+      padding: 0rem 0.5rem;
+      justify-content: center;
+      margin-top: 4em;
+  }
+  
+  .medios-texto {
+      width: 100%;
+      margin: 0;
+  }
+  
+  .medios-texto p {
+      line-height: 1.1;
+      margin-top: 1rem;
+  }
+  
+  
+  .medios-img {
+      position: relative;
+      width: 100%;
+      height: auto;
+      
+  }
+
+}
+
+/*BREAKPOINT MOBILE 480PX*/
+@media (max-width: 480px) {
+  #navbarCollapse .navbar-nav .navbar-item .nav-link{
+      padding-top: 0.1em;
+      padding-bottom: 0.1em;
+  }
+
+  .promesa-title {
+      font-size: 6.5vw;
+      line-height: 1.6rem;
+      margin-bottom: 0.5em;
+  }
+
+  .caracteristicas{
+      margin-bottom: 7em;
+  }
+  summary{
+      margin-left: 0;
+      padding-left: 0vw !important;
+      padding-right: 0vw !important;
+  }
+  .Zoco-Servicio-Pago {
+      width: 28vw !important;
+  }
+
+}
+/*BREAKPOINT MOBILE HASTA 375PX*/
+@media (max-width: 375px){
+
+  .navbar-brand img {
+      width: 40vw;
+  }
+
+  #hero-title {
+      width: 100%;
+  }
+
+  .promesa-title{
+      font-size: 6.5vw !important;
+      font-weight: normal;
+  }
+
+  .precios .title{
+      margin-bottom: 0.5em;
+  }
+  .precios-cuadro{
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+  }
+  .precios-cuadro .precios-item{
+      padding-top: 2em;
+      padding-bottom: 2em;
+  }
+
+  .precios-item-texto{
+      padding: 0.5rem;
+  }
+
+  .medios{
+      margin-top: 5.5em;
+  }
+  summary::after {
+      content: url(../../assets/img/plus.png);
+      width: 50px;
+      height: 50px;
+      font-weight: bold;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      list-style: none;
+  }
+  .cuadro-degradado{
+      padding: 1rem 1rem;
+  }
+}

@@ -1,0 +1,143 @@
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\IOC\obj\Release\net6.0\IOC.csproj.AssemblyReference.cache
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\IOC\obj\Release\net6.0\IOC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\IOC\obj\Release\net6.0\IOC.AssemblyInfoInputs.cache
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\IOC\obj\Release\net6.0\IOC.AssemblyInfo.cs
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\IOC\obj\Release\net6.0\IOC.csproj.CoreCompileInputs.cache
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\IOC\bin\Release\net6.0\IOC.deps.json
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\IOC\bin\Release\net6.0\IOC.dll
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\IOC\bin\Release\net6.0\IOC.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\IOC\bin\Release\net6.0\BLL.dll
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\IOC\bin\Release\net6.0\DAL.dll
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\IOC\bin\Release\net6.0\Entity.dll
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\IOC\bin\Release\net6.0\BLL.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\IOC\bin\Release\net6.0\DAL.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\IOC\bin\Release\net6.0\Entity.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\IOC\obj\Release\net6.0\IOC.csproj.AssemblyReference.cache
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\IOC\obj\Release\net6.0\IOC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\IOC\obj\Release\net6.0\IOC.AssemblyInfoInputs.cache
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\IOC\obj\Release\net6.0\IOC.AssemblyInfo.cs
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\IOC\obj\Release\net6.0\IOC.csproj.CoreCompileInputs.cache
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\IOC\obj\Release\net6.0\IOC.csproj.CopyComplete
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\IOC\obj\Release\net6.0\IOC.dll
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\IOC\obj\Release\net6.0\refint\IOC.dll
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\IOC\obj\Release\net6.0\IOC.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\IOC\obj\Release\net6.0\ref\IOC.dll
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\IOC\bin\Release\net6.0\IOC.deps.json
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\IOC\bin\Release\net6.0\IOC.dll
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\IOC\bin\Release\net6.0\IOC.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\IOC\bin\Release\net6.0\BLL.dll
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\IOC\bin\Release\net6.0\DAL.dll
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\IOC\bin\Release\net6.0\Entity.dll
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\IOC\bin\Release\net6.0\BLL.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\IOC\bin\Release\net6.0\DAL.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\IOC\bin\Release\net6.0\Entity.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\IOC\obj\Release\net6.0\IOC.csproj.AssemblyReference.cache
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\IOC\obj\Release\net6.0\IOC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\IOC\obj\Release\net6.0\IOC.AssemblyInfoInputs.cache
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\IOC\obj\Release\net6.0\IOC.AssemblyInfo.cs
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\IOC\obj\Release\net6.0\IOC.csproj.CoreCompileInputs.cache
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\IOC\obj\Release\net6.0\IOC.csproj.CopyComplete
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\IOC\obj\Release\net6.0\IOC.dll
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\IOC\obj\Release\net6.0\refint\IOC.dll
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\IOC\obj\Release\net6.0\IOC.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\IOC\obj\Release\net6.0\ref\IOC.dll
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\IOC.deps.json
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\IOC.dll
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\IOC.pdb
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\BLL.dll
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\DAL.dll
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\Entity.dll
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\BLL.pdb
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\DAL.pdb
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\Entity.pdb
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.csproj.AssemblyReference.cache
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.AssemblyInfoInputs.cache
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.AssemblyInfo.cs
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.csproj.CoreCompileInputs.cache
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.dll
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\refint\IOC.dll
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.pdb
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\ref\IOC.dll
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.sourcelink.json
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.csproj.Up2Date
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\IOC.deps.json
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\IOC.dll
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\IOC.pdb
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\BLL.dll
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\DAL.dll
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\Entity.dll
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\BLL.pdb
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\DAL.pdb
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\Entity.pdb
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.csproj.AssemblyReference.cache
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.AssemblyInfoInputs.cache
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.AssemblyInfo.cs
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.csproj.CoreCompileInputs.cache
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.sourcelink.json
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.csproj.CopyComplete
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.dll
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\refint\IOC.dll
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.pdb
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\ref\IOC.dll
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\IOC.deps.json
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\IOC.dll
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\IOC.pdb
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\BLL.dll
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\DAL.dll
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\Entity.dll
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\BLL.pdb
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\DAL.pdb
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\Entity.pdb
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.csproj.AssemblyReference.cache
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.AssemblyInfoInputs.cache
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.AssemblyInfo.cs
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.csproj.CoreCompileInputs.cache
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.sourcelink.json
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.csproj.CopyComplete
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.dll
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\refint\IOC.dll
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.pdb
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\ref\IOC.dll
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\IOC.deps.json
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\IOC.dll
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\IOC.pdb
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\BLL.dll
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\DAL.dll
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\Entity.dll
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\BLL.pdb
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\DAL.pdb
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\Entity.pdb
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.csproj.AssemblyReference.cache
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.AssemblyInfoInputs.cache
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.AssemblyInfo.cs
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.csproj.CoreCompileInputs.cache
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.sourcelink.json
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.csproj.Up2Date
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.dll
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\refint\IOC.dll
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.pdb
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\ref\IOC.dll
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\IOC.deps.json
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\IOC.dll
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\IOC.pdb
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\BLL.dll
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\DAL.dll
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\Entity.dll
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\BLL.pdb
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\DAL.pdb
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\bin\Release\net6.0\Entity.pdb
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.csproj.AssemblyReference.cache
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.AssemblyInfoInputs.cache
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.AssemblyInfo.cs
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.csproj.CoreCompileInputs.cache
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.sourcelink.json
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.csproj.Up2Date
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.dll
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\refint\IOC.dll
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\IOC.pdb
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\IOC\obj\Release\net6.0\ref\IOC.dll

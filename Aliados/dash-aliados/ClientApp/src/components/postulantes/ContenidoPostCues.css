@@ -1,0 +1,36 @@
+body{
+    background: #E1E5EF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    overflow: none !important;
+}
+
+.cartas-posiciones-cuestionario {
+    
+width: 425px;
+height: 315px;
+/* UI Properties */
+background: transparent linear-gradient(131deg, #FFFFFF 21%, #EEF1F4 84%) 0% 0% no-repeat padding-box;
+box-shadow: 12px 12px 18px #1D5DAA3B;
+border-radius: 52px;
+opacity: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+  }
+  
+  .cartas-posiciones-cuestionario-dark {
+    width: 420px !important;
+    height: auto !important;
+    background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 5px 4px 16px #0c0c0c !important;
+    border-radius: 50px !important;
+    opacity: 1 !important;
+  }
+  .contenido-carta-puesto {
+    height:auto !important; 
+    overflow: none !important; 
+  }
+ 

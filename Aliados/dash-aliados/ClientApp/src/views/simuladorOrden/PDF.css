@@ -1,0 +1,62 @@
+.pdf-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* 100% de la página */
+  }
+
+  
+
+  .fixed-download-button {
+    position: fixed;
+    bottom: 50%; /* Posición fija a la mitad de la pantalla */
+    right: 20px; /* Separado 20px del borde derecho */
+    transform: translateY(50%); /* Centra el botón verticalmente */
+    z-index: 1000; /* Asegura que esté por encima del resto del contenido */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #B4C400; /* Color azul */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 32px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    width: 60px;
+  }
+  .fixed-back-button {
+    position: fixed;
+    bottom: 40%; /* Posición fija a la mitad de la pantalla */
+    right: 20px; /* Separado 20px del borde derecho */
+    transform: translateY(50%); /* Centra el botón verticalmente */
+    z-index: 1000; /* Asegura que esté por encima del resto del contenido */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #B4C400; /* Color azul */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 32px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    width: 60px;
+  }
+
+  #pdf-content {
+    width: 210mm; /* Ancho A4 */
+    height: 297mm; /* Alto A4 */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribuir espacio entre los elementos */
+    background: white; /* Fondo blanco para evitar transparencia */
+    margin: 0 auto; /* Centrado */
+  }
+  #header, #footer {
+    height: auto; /* Encabezado y pie ocupan 15% cada uno */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #body {
+    flex: 1; /* El cuerpo ocupa el espacio restante */
+    width: 100%;
+    overflow: hidden; /* Evitar contenido desbordado */
+  }
+ 

@@ -1,0 +1,828 @@
+.carta-prospecto {
+    width: 100% !important;
+    height: 567px !important;
+    background: transparent linear-gradient(148deg, #ffffff 0%, #e5e8ee 100%) 0%
+      0% no-repeat padding-box !important;
+    box-shadow: 5px 4px 16px #d0d7e2 !important;
+    border-radius: 50px !important;
+    opacity: 1 !important;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .carta-prospecto {
+      width: 100% !important;
+      height: 567px !important;
+      background: transparent linear-gradient(148deg, #ffffff 0%, #e5e8ee 100%) 0%
+        0% no-repeat padding-box !important;
+      box-shadow: 5px 4px 16px #d0d7e2 !important;
+      border-radius: 50px !important;
+      opacity: 1 !important;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .carta-prospecto {
+      width: 100% !important;
+      height: 567px !important;
+      background: transparent linear-gradient(148deg, #ffffff 0%, #e5e8ee 100%) 0%
+        0% no-repeat padding-box !important;
+      box-shadow: 5px 4px 16px #d0d7e2 !important;
+      border-radius: 50px !important;
+      opacity: 1 !important;
+    }
+  }
+  
+  .carta-prospecto-historial {
+    width: 100% !important;
+    height: 567px !important;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+    background: transparent linear-gradient(148deg, #ffffff 0%, #e5e8ee 100%) 0%
+      0% no-repeat padding-box !important;
+    box-shadow: 5px 4px 16px #d0d7e2 !important;
+    border-radius: 50px !important;
+    opacity: 1 !important;
+  }
+  
+  @media only screen and (max-width: 1100px) {
+    .carta-prospecto-historial {
+      width: 450px !important;
+      height: 567px !important;
+      margin-top: 2rem !important;
+      margin-bottom: 2rem !important;
+      background: transparent linear-gradient(148deg, #ffffff 0%, #e5e8ee 100%) 0%
+        0% no-repeat padding-box !important;
+      box-shadow: 5px 4px 16px #d0d7e2 !important;
+      border-radius: 50px !important;
+      opacity: 1 !important;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .carta-prospecto-historial {
+      width: 100% !important;
+      height: 567px !important;
+      margin-top: 2rem !important;
+      margin-bottom: 2rem !important;
+      background: transparent linear-gradient(148deg, #ffffff 0%, #e5e8ee 100%) 0%
+        0% no-repeat padding-box !important;
+      box-shadow: 5px 4px 16px #d0d7e2 !important;
+      border-radius: 50px !important;
+      opacity: 1 !important;
+    }
+  }
+  
+  .btn-detalle-prospecto {
+    width: 360px !important;
+    height: 97px !important;
+    opacity: 1 !important;
+  }
+  
+  .btn-nuevo-prospecto {
+    width: 272px !important;
+    height: 45px !important;
+    background: #b4c400 0% 0% no-repeat padding-box !important;
+    border-radius: 30px !important;
+    opacity: 1 !important;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .btn-nuevo-prospecto {
+      width: 331px !important;
+      height: 45px !important;
+      background: #b4c400 0% 0% no-repeat padding-box !important;
+      border-radius: 30px !important;
+      opacity: 1 !important;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .btn-nuevo-prospecto {
+      width: 300px !important;
+      height: 45px !important;
+      background: #b4c400 0% 0% no-repeat padding-box !important;
+      border-radius: 30px !important;
+      opacity: 1 !important;
+    }
+  }
+  
+  @media only screen and (max-width: 330px) {
+    .btn-nuevo-prospecto {
+      width: 250px !important;
+      height: 45px !important;
+      background: #b4c400 0% 0% no-repeat padding-box !important;
+      border-radius: 30px !important;
+      opacity: 1 !important;
+    }
+  }
+  
+  @media only screen and (max-width: 300px) {
+    .btn-nuevo-prospecto {
+      width: 200px !important;
+      height: 45px !important;
+      background: #b4c400 0% 0% no-repeat padding-box !important;
+      border-radius: 30px !important;
+      opacity: 1 !important;
+    }
+  }
+  
+  .input-comentario-prospecto {
+    width: 100% !important;
+    height: 78px !important;
+    border: 2px solid #d0d7e2 !important;
+    border-radius: 25px !important;
+    opacity: 1 !important;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .input-comentario-prospecto {
+      width: 100% !important;
+      height: 78px !important;
+      border: 2px solid #d0d7e2 !important;
+      border-radius: 25px !important;
+      opacity: 1 !important;
+    }
+  }
+  
+  .input-comentario-prospecto-editar {
+    width: 100% !important;
+    height: 78px !important;
+    border: 2px solid #d0d7e2 !important;
+    border-radius: 25px !important;
+    opacity: 1 !important;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .input-comentario-prospecto-editar {
+      width: 80% !important;
+      height: 78px !important;
+      border: 2px solid #d0d7e2 !important;
+      border-radius: 25px !important;
+      opacity: 1 !important;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .input-comentario-prospecto-editar {
+      width: 100% !important;
+      height: 78px !important;
+      border: 2px solid #d0d7e2 !important;
+      border-radius: 25px !important;
+      opacity: 1 !important;
+    }
+  }
+  
+  .width-604 {
+    width: 604px !important;
+    max-width: 100% !important; /* Garantiza que no exceda el ancho del contenedor */
+  }
+  
+  .width-800 {
+    width: 730px !important;
+    max-width: 100% !important; /* Garantiza que no exceda el ancho del contenedor */
+  }
+  
+  .width-153 {
+    width: 153px !important;
+    max-width: 100% !important;
+  }
+  
+  .btn-detalle-prospecto {
+    background: transparent !important;
+    color: black !important;
+    border: 0px !important;
+  }
+  
+  .btn-detalle-prospecto:hover {
+    background: transparent !important;
+    color: black !important;
+    border: 0px !important;
+  }
+  
+  .border-izquierda-datos-gris {
+    width: 5px;
+    height: 100%;
+    background: #b3b5bf 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  
+  .border-izquierda-datos-gris:hover {
+    width: 14px;
+    height: 100%;
+    background: #b3b5bf 0% 0% no-repeat padding-box;
+    opacity: 1;
+    transition: all 0.2s;
+  }
+  
+  .btn-detalle-prospecto .border-izquierda-datos-gris.active {
+    width: 14px !important;
+    height: 100% !important;
+    background: #b3b5bf 0% 0% no-repeat padding-box !important;
+    opacity: 1 !important;
+    transition: all 0.2s !important;
+  }
+  
+  .btn-detalle-prospecto .border-izquierda-datos-gris.desactive {
+    width: 5px !important;
+    height: 100% !important;
+    background: #b3b5bf 0% 0% no-repeat padding-box !important;
+    opacity: 1 !important;
+    transition: all 0.2s !important;
+  }
+  
+  .border-izquierda-datos-verde {
+    width: 5px;
+    height: 100% !important;
+    background: #b4c400 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  
+  .border-izquierda-datos-verde:hover {
+    width: 14px;
+    height: 100% !important;
+    background: #b4c400 0% 0% no-repeat padding-box;
+    opacity: 1;
+    transition: all 0.2s;
+  }
+  
+  .btn-detalle-prospecto .border-izquierda-datos-verde.active {
+    width: 14px !important;
+    height: 100% !important;
+    background: #b4c400 0% 0% no-repeat padding-box !important;
+    opacity: 1 !important;
+    transition: all 0.2s !important;
+  }
+  
+  .btn-detalle-prospecto .border-izquierda-datos-verde.desactive {
+    width: 5px !important;
+    height: 100% !important;
+    background: #b4c400 0% 0% no-repeat padding-box !important;
+    opacity: 1 !important;
+    transition: all 0.2s !important;
+  }
+  
+  .border-izquierda-datos-rojo {
+    width: 5px;
+    height: 100%;
+    background: #e24444 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  
+  .border-izquierda-datos-rojo:hover {
+    width: 14px;
+    height: 100%;
+    background: #e24444 0% 0% no-repeat padding-box;
+    opacity: 1;
+    transition: all 0.2s;
+  }
+  
+  .btn-detalle-prospecto .border-izquierda-datos-rojo.active {
+    width: 14px !important;
+    background: #e24444 0% 0% no-repeat padding-box !important;
+    opacity: 1 !important;
+    transition: all 0.2s !important;
+  }
+  
+  .btn-detalle-prospecto .border-izquierda-datos-rojo.desactive {
+    width: 5px !important;
+    background: #e24444 0% 0% no-repeat padding-box !important;
+    opacity: 1 !important;
+    transition: all 0.2s !important;
+  }
+  
+  .line-height {
+    line-height: 20px !important;
+  }
+  
+  .bg-comentario-animado {
+    background: #e5e8ee 0% 0% no-repeat padding-box !important;
+    border-radius: 30px !important;
+  }
+  
+  .btn-editar-prospecto-prospecto {
+    background: transparent 0% no-repeat padding-box !important;
+    border: 2px solid #292b2f !important;
+    opacity: 1 !important;
+    color: #0c0c0c !important;
+  }
+  
+  .btn-comentarios-prospecto-prospecto {
+    background: transparent 0% no-repeat padding-box !important;
+    border: 2px solid #292b2f !important;
+    opacity: 1 !important;
+    color: #0c0c0c !important;
+  }
+  
+  .container-formularios-prospecto-primer-contacto {
+    width: 720px !important;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .container-formularios-prospecto-primer-contacto {
+      width: 100% !important;
+    }
+  }
+  
+  .container-formulario-prospecto-primer-reunion {
+    width: 680px !important;
+  }
+  @media only screen and (max-width: 1000px) {
+    .container-formulario-prospecto-primer-reunion {
+      width: 100% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .mx-auto-celular {
+      margin-right: auto !important;
+      margin-left: auto !important;
+    }
+  }
+  
+  .container-hidden {
+    max-width: 240px;
+    overflow: hidden;
+    background: #e5e8ee 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+  }
+  
+  @media only screen and (max-width: 1100px) {
+    .container-hidden {
+      max-width: 200px;
+      overflow: hidden;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .container-hidden {
+      max-width: 100%;
+      overflow: hidden;
+    }
+  }
+  
+  @media only screen and (max-width: 380px) {
+    .container-hidden {
+      max-width: 290px;
+      overflow: hidden;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .container-hidden {
+      max-width: 220px;
+      overflow: hidden;
+    }
+  }
+  
+  @media only screen and (max-width: 300px) {
+    .container-hidden {
+      max-width: 200px;
+      overflow: hidden;
+    }
+  }
+  
+  /* Estilos del texto animado */
+  .animated-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    animation: moveLeftRight 8s linear infinite alternate;
+  }
+  
+  @keyframes moveLeftRight {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .icon-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .notification-badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    border-radius: 20px;
+    background: #292b2f 0% 0% no-repeat padding-box;
+    color: #ffffff;
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bg-fecha-primer-contacto {
+    background: #e5e8ee 0% 0% no-repeat padding-box !important;
+    border-radius: 25px !important;
+    color: #292b2f !important;
+    opacity: 0.8 !important;
+  }
+  
+  /* BTN CONTACTO - REUNION - NO CIERRA */
+  .btn-primer-contacto-mobile {
+    width: 148px !important;
+    height: 44px !important;
+    background: #b3b5bf 0% 0% no-repeat padding-box !important;
+    color: #ffffff !important;
+    border-radius: 29px !important;
+    opacity: 1 !important;
+  }
+  
+  .btn-primer-contacto-mobile-active {
+    width: 148px !important;
+    height: 44px !important;
+    border: 2px solid #b3b5bf !important;
+    color: #b3b5bf !important;
+    border-radius: 29px !important;
+    opacity: 1 !important;
+  }
+  
+  @media only screen and (max-width: 330px) {
+    .btn-primer-contacto-mobile {
+      width: 108px !important;
+      height: 44px !important;
+      background: #b3b5bf 0% 0% no-repeat padding-box !important;
+      color: #ffffff !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+  
+    .btn-primer-contacto-mobile-active {
+      width: 108px !important;
+      height: 44px !important;
+      border: 2px solid #b3b5bf !important;
+      color: #b3b5bf !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+  }
+  
+  .btn-reunion-mobile {
+    width: 148px !important;
+    height: 44px !important;
+    background: #b4c400 0% 0% no-repeat padding-box !important;
+    color: #ffffff !important;
+    border-radius: 29px !important;
+    opacity: 1 !important;
+  }
+  
+  .btn-reunion-mobile-active {
+    width: 148px !important;
+    height: 44px !important;
+    border: 2px solid #b4c400 !important;
+    color: #b4c400 !important;
+    border-radius: 29px !important;
+    opacity: 1 !important;
+  }
+  
+  @media only screen and (max-width: 330px) {
+    .btn-reunion-mobile {
+      width: 108px !important;
+      height: 44px !important;
+      background: #b4c400 0% 0% no-repeat padding-box !important;
+      color: #ffffff !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+  
+    .btn-reunion-mobile-active {
+      width: 108px !important;
+      height: 44px !important;
+      border: 2px solid #b4c400 !important;
+      color: #b4c400 !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+  }
+  
+  .btn-no-cierra-mobile {
+    width: 148px !important;
+    height: 44px !important;
+    background: #e24444 0% 0% no-repeat padding-box !important;
+    color: #ffffff !important;
+    border-radius: 29px !important;
+    opacity: 1 !important;
+  }
+  
+  .btn-no-cierra-mobile-active {
+    width: 148px !important;
+    height: 44px !important;
+    border: 2px solid #e24444 !important;
+    color: #e24444 !important;
+    border-radius: 29px !important;
+    opacity: 1 !important;
+  }
+  
+  @media only screen and (max-width: 330px) {
+    .btn-no-cierra-mobile {
+      width: 108px !important;
+      height: 44px !important;
+      background: #e24444 0% 0% no-repeat padding-box !important;
+      color: #ffffff !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+  
+    .btn-no-cierra-mobile-active {
+      width: 108px !important;
+      height: 44px !important;
+      border: 2px solid #e24444 !important;
+      color: #e24444 !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+  }
+  
+  .btn-reunion-mobile-prospecto-historial {
+    width: 180px !important;
+    height: 44px !important;
+    background: #b4c400 0% 0% no-repeat padding-box !important;
+    color: #ffffff !important;
+    border-radius: 29px !important;
+    opacity: 1 !important;
+  }
+  
+  .btn-reunion-mobile-active-prospecto-historial {
+    width: 180px !important;
+    height: 44px !important;
+    border: 2px solid #b4c400 !important;
+    color: #b4c400 !important;
+    border-radius: 29px !important;
+    opacity: 1 !important;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .btn-reunion-mobile-prospecto-historial {
+      width: 250px !important;
+      height: 44px !important;
+      background: #b4c400 0% 0% no-repeat padding-box !important;
+      color: #ffffff !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+  
+    .btn-reunion-mobile-active-prospecto-historial {
+      width: 250px !important;
+      height: 44px !important;
+      border: 2px solid #b4c400 !important;
+      color: #b4c400 !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+  }
+  
+  @media only screen and (max-width: 450px) {
+    .btn-reunion-mobile-prospecto-historial {
+      width: 160px !important;
+      height: 44px !important;
+      background: #b4c400 0% 0% no-repeat padding-box !important;
+      color: #ffffff !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+  
+    .btn-reunion-mobile-active-prospecto-historial {
+      width: 160px !important;
+      height: 44px !important;
+      border: 2px solid #b4c400 !important;
+      color: #b4c400 !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+  }
+  
+  @media only screen and (max-width: 330px) {
+    .btn-reunion-mobile-prospecto-historial {
+      width: 140px !important;
+      height: 44px !important;
+      background: #b4c400 0% 0% no-repeat padding-box !important;
+      color: #ffffff !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+  
+    .btn-reunion-mobile-active-prospecto-historial {
+      width: 140px !important;
+      height: 44px !important;
+      border: 2px solid #b4c400 !important;
+      color: #b4c400 !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+  }
+  
+  .btn-no-cierra-mobile-prospecto-historial {
+    width: 180px !important;
+    height: 44px !important;
+    background: #e24444 0% 0% no-repeat padding-box !important;
+    color: #ffffff !important;
+    border-radius: 29px !important;
+    opacity: 1 !important;
+  }
+  
+  .btn-no-cierra-mobile-active-prospecto-historial {
+    width: 180px !important;
+    height: 44px !important;
+    border: 2px solid #e24444 !important;
+    color: #e24444 !important;
+    border-radius: 29px !important;
+    opacity: 1 !important;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .btn-no-cierra-mobile-prospecto-historial {
+      width: 250px !important;
+      height: 44px !important;
+      background: #e24444 0% 0% no-repeat padding-box !important;
+      color: #ffffff !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+  
+    .btn-no-cierra-mobile-active-prospecto-historial {
+      width: 250px !important;
+      height: 44px !important;
+      border: 2px solid #e24444 !important;
+      color: #e24444 !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+  }
+  
+  @media only screen and (max-width: 450px) {
+    .btn-no-cierra-mobile-prospecto-historial {
+      width: 160px !important;
+      height: 44px !important;
+      background: #e24444 0% 0% no-repeat padding-box !important;
+      color: #ffffff !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+  
+    .btn-no-cierra-mobile-active-prospecto-historial {
+      width: 160px !important;
+      height: 44px !important;
+      border: 2px solid #e24444 !important;
+      color: #e24444 !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+  }
+  
+  @media only screen and (max-width: 330px) {
+    .btn-no-cierra-mobile-prospecto-historial {
+      width: 140px !important;
+      height: 44px !important;
+      background: #e24444 0% 0% no-repeat padding-box !important;
+      color: #ffffff !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+  
+    .btn-no-cierra-mobile-active-prospecto-historial {
+      width: 140px !important;
+      height: 44px !important;
+      border: 2px solid #e24444 !important;
+      color: #e24444 !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+  }
+  
+  .btn-si-cierra {
+    width: 182px !important;
+    height: 45px !important; 
+    background: #b4c400 0% 0% no-repeat padding-box !important;
+    border: 1px solid #b4c400  !important;
+    color: #fafafa !important;
+    border-radius: 29px !important;
+    opacity: 1 !important;
+  }
+  
+  .btn-no-cierra{
+    width: 182px !important;
+    height: 45px !important;
+    background: #E24444 0% 0% no-repeat padding-box !important;
+    border: 1px solid #E24444  !important;
+    color: #fafafa !important;
+    border-radius: 29px !important;
+    opacity: 1 !important;
+  
+  }
+  
+  .btn-guardar-editar-prospecto {
+    width: 182px !important;
+    height: 45px !important;
+    background: #b4c400 0% 0% no-repeat padding-box !important;
+    border: #b4c400 !important;
+    border-radius: 29px !important;
+    opacity: 1 !important;
+  }
+  
+  .btn-salir {
+    width: 182px !important;
+    height: 45px !important;
+    background: #292B2F 0% 0% no-repeat padding-box !important;
+    border: #292B2F !important;
+    border-radius: 29px !important;
+    opacity: 1 !important;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .btn-si-cierra {
+      width: 142px !important;
+      height: 45px !important; 
+      background: #b4c400 0% 0% no-repeat padding-box !important;
+      border: 1px solid #b4c400  !important;
+      color: #fafafa !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+    
+    .btn-no-cierra{
+      width: 142px !important;
+      height: 45px !important;
+      background: #E24444 0% 0% no-repeat padding-box !important;
+      border: 1px solid #E24444  !important;
+      color: #fafafa !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    
+    }
+    
+    .btn-guardar-editar-prospecto {
+      width: 142px !important;
+      height: 45px !important;
+      background: #b4c400 0% 0% no-repeat padding-box !important;
+      border: #b4c400 !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+  
+    .btn-salir {
+      width: 142px !important;
+      height: 45px !important;
+      background: #292B2F 0% 0% no-repeat padding-box !important;
+      border: #292B2F !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 330px) {
+    .btn-si-cierra {
+      width: 100px !important;
+      height: 45px !important; 
+      background: #b4c400 0% 0% no-repeat padding-box !important;
+      border: 1px solid #b4c400  !important;
+      color: #fafafa !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+      
+    }
+    
+    .btn-no-cierra{
+      width: 100px !important;
+      height: 45px !important;
+      background: #E24444 0% 0% no-repeat padding-box !important;
+      border: 1px solid #E24444  !important;
+      color: #fafafa !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    
+    }
+    
+    .btn-guardar-editar-prospecto {
+      width: 100px !important;
+      height: 45px !important;
+      background: #b4c400 0% 0% no-repeat padding-box !important;
+      border: #b4c400 !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+  
+    .btn-salir {
+      width: 100px !important;
+      height: 45px !important;
+      background: #292B2F 0% 0% no-repeat padding-box !important;
+      border: #292B2F !important;
+      border-radius: 29px !important;
+      opacity: 1 !important;
+    }
+    
+  }
+  
+  .btn-editar-no-cierra-detalle {
+    background: transparent 0% no-repeat padding-box !important;
+    border: 2px solid #292b2f !important;
+    opacity: 1 !important;
+  }

@@ -1,0 +1,125 @@
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\DAL\bin\Release\net6.0\DAL.deps.json
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\DAL\bin\Release\net6.0\DAL.dll
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\DAL\bin\Release\net6.0\DAL.pdb
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\DAL\bin\Release\net6.0\Entity.dll
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\DAL\bin\Release\net6.0\Entity.pdb
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\DAL\obj\Release\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\DAL\obj\Release\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\DAL\obj\Release\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\DAL\obj\Release\net6.0\DAL.AssemblyInfo.cs
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\DAL\obj\Release\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\DAL\obj\Release\net6.0\DAL.csproj.CopyComplete
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\DAL\obj\Release\net6.0\DAL.dll
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\DAL\obj\Release\net6.0\refint\DAL.dll
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\DAL\obj\Release\net6.0\DAL.pdb
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\DAL\obj\Release\net6.0\ref\DAL.dll
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\DAL\bin\Release\net6.0\DAL.deps.json
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\DAL\bin\Release\net6.0\DAL.dll
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\DAL\bin\Release\net6.0\DAL.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\DAL\bin\Release\net6.0\Entity.dll
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\DAL\bin\Release\net6.0\Entity.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\DAL\obj\Release\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\DAL\obj\Release\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\DAL\obj\Release\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\DAL\obj\Release\net6.0\DAL.AssemblyInfo.cs
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\DAL\obj\Release\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\DAL\obj\Release\net6.0\DAL.csproj.CopyComplete
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\DAL\obj\Release\net6.0\DAL.dll
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\DAL\obj\Release\net6.0\refint\DAL.dll
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\DAL\obj\Release\net6.0\DAL.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\DAL\obj\Release\net6.0\ref\DAL.dll
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\DAL\bin\Release\net6.0\DAL.deps.json
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\DAL\bin\Release\net6.0\DAL.dll
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\DAL\bin\Release\net6.0\DAL.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\DAL\bin\Release\net6.0\Entity.dll
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\DAL\bin\Release\net6.0\Entity.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\DAL\obj\Release\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\DAL\obj\Release\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\DAL\obj\Release\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\DAL\obj\Release\net6.0\DAL.AssemblyInfo.cs
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\DAL\obj\Release\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\DAL\obj\Release\net6.0\DAL.csproj.CopyComplete
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\DAL\obj\Release\net6.0\DAL.dll
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\DAL\obj\Release\net6.0\refint\DAL.dll
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\DAL\obj\Release\net6.0\DAL.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\DAL\obj\Release\net6.0\ref\DAL.dll
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\DAL.deps.json
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\DAL.dll
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\DAL.pdb
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\Entity.dll
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\Entity.pdb
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.AssemblyInfo.cs
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.dll
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\refint\DAL.dll
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.pdb
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\ref\DAL.dll
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.sourcelink.json
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.csproj.Up2Date
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\DAL.deps.json
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\DAL.dll
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\DAL.pdb
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\Entity.dll
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\Entity.pdb
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.AssemblyInfo.cs
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.sourcelink.json
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.csproj.CopyComplete
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.dll
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\refint\DAL.dll
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.pdb
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\ref\DAL.dll
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\DAL.deps.json
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\DAL.dll
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\DAL.pdb
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\Entity.dll
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\Entity.pdb
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.AssemblyInfo.cs
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.sourcelink.json
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.csproj.CopyComplete
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.dll
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\refint\DAL.dll
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.pdb
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\ref\DAL.dll
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\DAL.deps.json
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\DAL.dll
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\DAL.pdb
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\Entity.dll
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\Entity.pdb
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.AssemblyInfo.cs
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.sourcelink.json
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.csproj.Up2Date
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.dll
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\refint\DAL.dll
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.pdb
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\ref\DAL.dll
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\DAL.deps.json
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\DAL.dll
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\DAL.pdb
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\Entity.dll
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\bin\Release\net6.0\Entity.pdb
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.AssemblyInfo.cs
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.sourcelink.json
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.csproj.Up2Date
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.dll
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\refint\DAL.dll
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\DAL.pdb
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\DAL\obj\Release\net6.0\ref\DAL.dll

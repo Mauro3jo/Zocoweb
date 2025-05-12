@@ -1,0 +1,122 @@
+.bg-check {
+    width: 1346px !important;
+    height: 640px !important;
+    background: transparent linear-gradient(120deg, #ffffff 0%, #e5e8ee 100%) 0%
+      0% no-repeat padding-box !important;
+    box-shadow: 5px 4px 16px #d0d7e2 !important;
+    border-radius: 50px !important;
+    opacity: 1 !important;
+  }
+  
+  .bg-check-dark {
+    width: 1346px !important;
+    height: 640px !important;
+    background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0% 0%
+      no-repeat padding-box;
+    box-shadow: 5px 4px 16px #0c0c0c !important;
+    border-radius: 50px !important;
+    opacity: 1 !important;
+  }
+  
+  @media only screen and (max-width:800px) {
+    .bg-check {
+      width: 100% !important;
+      height: 640px !important;
+      background: transparent linear-gradient(120deg, #ffffff 0%, #e5e8ee 100%) 0%
+        0% no-repeat padding-box !important;
+      box-shadow: 5px 4px 16px #d0d7e2 !important;
+      border-radius: 50px !important;
+      opacity: 1 !important;
+    }
+    
+    .bg-check-dark {
+      width: 100% !important;
+      height: 640px !important;
+      background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0% 0%
+        no-repeat padding-box;
+      box-shadow: 5px 4px 16px #0c0c0c !important;
+      border-radius: 50px !important;
+      opacity: 1 !important;
+    }
+  }
+  
+  .btn-empezar-dia {
+    width: 182px !important;
+    height: 44px !important;
+    background: #b4c400 0% 0% no-repeat padding-box !important;
+    border-radius: 23px !important;
+    opacity: 1 !important;
+    color: white !important;
+  }
+  
+  .btn-terminar-dia {
+    width: 182px !important;
+    height: 44px !important;
+    background: #e24444 0% 0% no-repeat padding-box !important;
+    border-radius: 23px !important;
+    opacity: 1 !important;
+    color: white !important;
+  }
+  
+  .btn-check-modal {
+    width: 200px !important;
+    height: 44px !important;
+    color: #ffffff !important;
+    background: #b4c400 0% 0% no-repeat padding-box !important;
+    border-radius: 23px !important;
+    opacity: 1 !important;
+  }
+  
+  .btn-check-modal-dark {
+    width: 200px !important;
+    height: 44px !important;
+    color: #000000 !important;
+    background: #b4c400 0% 0% no-repeat padding-box !important;
+    border-radius: 23px !important;
+    opacity: 1 !important;
+  }
+  
+  .btn-ver-map {
+    width: 90px !important;
+    height: 44px !important;
+    color: #ffffff !important;
+    background: #b4c400 0% 0% no-repeat padding-box !important;
+    border-radius: 23px !important;
+    opacity: 1 !important;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .btn-ver-map {
+      width: 80px !important;
+      height: 35px !important;
+      color: #ffffff !important;
+      background: #b4c400 0% 0% no-repeat padding-box !important;
+      border-radius: 23px !important;
+      opacity: 1 !important;
+    }
+  }
+  
+  .form-check-input:checked {
+    background-color: #b4c400 !important;
+    border-color: #b4c400 !important;
+  }
+  
+  
+  .btn-ver-foto {
+    width: 90px !important;
+    height: 44px !important;
+    color: #ffffff !important;
+    background: #b4c400 0% 0% no-repeat padding-box !important;
+    border-radius: 23px !important;
+    opacity: 1 !important;
+  }
+  
+  .btn-ver-foto-dark {
+    width: 90px !important;
+    height: 44px !important;
+    color: #000000 !important;
+    background: #b4c400 0% 0% no-repeat padding-box !important;
+    border-radius: 23px !important;
+    opacity: 1 !important;
+  }
+  

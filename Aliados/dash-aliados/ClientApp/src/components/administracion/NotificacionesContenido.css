@@ -1,0 +1,227 @@
+.caja-comentario-notificaciones {
+  width: 100% !important;
+  height: 134px !important;
+  background: #d9dde3 0% 0% no-repeat padding-box !important;
+  box-shadow: inset 8px 9px 18px #bcbecb75 !important;
+  border-radius: 30px !important;
+  opacity: 1 !important;
+  padding: 10px;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+
+.btn-publicar-notificaciones {
+  width: 209px !important;
+  height: 45px !important;
+  background: #b4c400 0% 0% no-repeat padding-box !important;
+  border: 2px solid #b4c400 !important;
+  border-radius: 29px !important;
+  opacity: 1 !important;
+}
+
+@media only screen and (max-width: 800px) {
+  .btn-publicar-notificaciones {
+    width: 150px !important;
+    height: 45px !important;
+    background: #b4c400 0% 0% no-repeat padding-box !important;
+    border: 2px solid #b4c400 !important;
+    border-radius: 29px !important;
+    opacity: 1 !important;
+  }
+}
+
+.cuadro-notificaciones {
+  width: 100% !important;
+  height: 577px !important;
+  background: transparent linear-gradient(136deg, #ffffff 0%, #e5e8ee 100%) 0%
+    0% no-repeat padding-box !important;
+  box-shadow: 5px 4px 16px #d0d7e2 !important;
+  border-radius: 50px !important;
+  opacity: 1 !important;
+}
+
+.cuadro-notificaciones-dark {
+  width: 100% !important;
+  height: 577px !important;
+  background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 5px 4px 16px #0c0c0c !important;
+  border-radius: 50px !important;
+  opacity: 1 !important;
+}
+
+.btn-aliado-asesores {
+  width: 300px !important;
+  height: 45px !important;
+  background: #b4c400 0% 0% no-repeat padding-box !important;
+  border: 2px solid #b4c400 !important;
+  border-radius: 29px !important;
+  opacity: 1 !important;
+}
+
+.bg-activado-asesores {
+  width: 300px !important;
+  height: 45px !important;
+  background: transparent 0% 0% no-repeat padding-box !important;
+  border: 2px solid #b4c400 !important;
+  border-radius: 29px !important;
+  opacity: 1 !important;
+  color: #b4c400 !important;
+}
+
+@media only screen and (max-width: 800px) {
+  .btn-aliado-asesores {
+    width: 180px !important;
+    height: 45px !important;
+    background: #b4c400 0% 0% no-repeat padding-box !important;
+    border: 2px solid #b4c400 !important;
+    border-radius: 29px !important;
+    opacity: 1 !important;
+  }
+
+  .bg-activado-asesores {
+    width: 180px !important;
+    height: 45px !important;
+    background: transparent 0% 0% no-repeat padding-box !important;
+    border: 2px solid #b4c400 !important;
+    border-radius: 29px !important;
+    opacity: 1 !important;
+    color: #b4c400 !important;
+  }
+
+  .cuadro-notificaciones {
+    width: 100% !important;
+    height: 577px !important;
+    background: transparent linear-gradient(136deg, #ffffff 0%, #e5e8ee 100%) 0%
+      0% no-repeat padding-box !important;
+    box-shadow: 5px 4px 16px #d0d7e2 !important;
+    border-radius: 30px !important;
+    opacity: 1 !important;
+  }
+}
+
+.bg-caja-chat-asesores {
+  width: 100% !important;
+  height: 100% !important;
+  background: transparent linear-gradient(120deg, #ffffff 0%, #e5e8ee 100%) 0%
+    0% no-repeat padding-box !important;
+  box-shadow: 5px 4px 16px #d0d7e2 !important;
+  border-radius: 50px !important;
+  opacity: 1 !important;
+}
+
+.bg-caja-chat-asesores-dark {
+  width: 100% !important;
+  height: 100% !important;
+  background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0% 0%
+    no-repeat padding-box !important;
+  box-shadow: 5px 4px 16px #0c0c0c !important;
+  border-radius: 50px !important;
+  opacity: 1 !important;
+}
+
+@media only screen and (max-width: 800px) {
+  .bg-caja-chat-asesores {
+    width: 100% !important;
+    height: 100% !important;
+    background: transparent linear-gradient(120deg, #ffffff 0%, #e5e8ee 100%) 0%
+      0% no-repeat padding-box !important;
+    box-shadow: 5px 4px 16px #d0d7e2 !important;
+    border-radius: 30px !important;
+    opacity: 1 !important;
+  }
+
+  .bg-caja-chat-asesores-dark {
+    width: 100% !important;
+    height: 100% !important;
+    background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0%
+      0% no-repeat padding-box !important;
+    box-shadow: 5px 4px 16px #0c0c0c !important;
+    border-radius: 30px !important;
+    opacity: 1 !important;
+  }
+}
+
+.caja-comentarios-respuestas {
+  width: 557px !important;
+  height: 60px !important;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  background: #e5e8ee 0% 0% no-repeat padding-box !important;
+  border-radius: 15px !important;
+
+  opacity: 1;
+}
+
+@media only screen and (max-width: 800px) {
+  .caja-comentarios-respuestas {
+    width: 420px !important;
+    height: 60px !important;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    background: #e5e8ee 0% 0% no-repeat padding-box !important;
+    border-radius: 15px !important;
+
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .caja-comentarios-respuestas {
+    width: 100%!important;
+    height: 60px !important;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    background: #e5e8ee 0% 0% no-repeat padding-box !important;
+    border-radius: 15px !important;
+
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .caja-comentarios-respuestas {
+    width: 300px !important;
+    height: 60px !important;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    background: #e5e8ee 0% 0% no-repeat padding-box !important;
+    border-radius: 15px !important;
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .caja-comentarios-respuestas {
+    width: 200px !important;
+    height: 60px !important;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    background: #e5e8ee 0% 0% no-repeat padding-box !important;
+    border-radius: 15px !important;
+    opacity: 1;
+  }
+}
+
+
+@media only screen and (max-width: 320px) {
+  .caja-comentarios-respuestas {
+    width: 150px !important;
+    height: 60px !important;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    background: #e5e8ee 0% 0% no-repeat padding-box !important;
+    border-radius: 15px !important;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,52 @@
+.carta-peticiones-gestor {
+  width: 399px;
+  height: 100%;
+  background: transparent linear-gradient(132deg, #ffffff 0%, #e5e8ee 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 5px 4px 16px #d0d7e2;
+  border-radius: 30px;
+  opacity: 1;
+}
+
+.carta-peticiones-gestor-dark {
+  width: 399px;
+  height: 100%;
+  background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0% 0%
+    no-repeat padding-box !important;
+  box-shadow: 5px 4px 16px #0c0c0c !important;
+  border-radius: 30px;
+  opacity: 1;
+}
+
+/* Estilo por defecto para escritorio */
+.carta {
+  display: block;
+}
+
+/* Media queries para tabletas y celulares */
+@media (max-width: 1024px) {
+  .carta {
+    display: none;
+  }
+
+  .carta.tablet {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .carta.tablet {
+    display: none; 
+  }
+
+  .carta.celular {
+    display: block;
+  }
+}
+
+.caja-observaciones-gestor-completada {
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  border: 2px solid #d0d7e2 !important;
+  border-radius: 25px !important;
+  opacity: 1 !important;
+}

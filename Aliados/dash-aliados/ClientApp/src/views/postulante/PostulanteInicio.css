@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    flex: 1; /* Hace que el contenido principal ocupe el espacio disponible */
+  }
+  
+  .footer {
+    position: relative; /* Permite que el footer se mantenga al final sin superponer contenido */
+    width: 100%;
+    bottom: -2em;
+  }

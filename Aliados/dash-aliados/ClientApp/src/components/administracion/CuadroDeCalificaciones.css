@@ -1,0 +1,61 @@
+.cuadro-calificaciones {
+  width: 100% !important;
+  height: 100% !important;
+  background: transparent linear-gradient(120deg, #ffffff 0%, #e5e8ee 100%) 0%
+    0% no-repeat padding-box !important;
+  box-shadow: 5px 4px 16px #d0d7e2 !important;
+  border-radius: 50px !important;
+  opacity: 1 !important;
+}
+
+.cuadro-calificaciones-dark {
+  width: 100% !important;
+  height: 100% !important;
+  background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 5px 4px 16px #0c0c0c !important;
+  border-radius: 50px !important;
+  opacity: 1 !important;
+}
+
+.review-card {
+  padding: 50px;
+  border-radius: 4px;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review-header h3 {
+  margin: 0;
+}
+
+.rating {
+  color: #b4c400;
+}
+
+.rating .on {
+  color: #b4c400;
+}
+
+.rating .off {
+  color: #343a40;
+}
+
+.review-text {
+  margin-bottom: 10px;
+}
+
+.review-footer {
+  display: flex;
+  justify-content: space-between;
+
+  color: #777;
+}
+
+.review-assessor {
+  font-weight: bold;
+}

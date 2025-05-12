@@ -1,0 +1,1104 @@
+import { faPlusCircle, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React, { useContext, useEffect, useRef, useState } from "react";
+import { Button, Col, Form, Row } from "react-bootstrap";
+import Select from "react-select";
+import { Controller, useForm } from "react-hook-form";
+import { DarkModeContext } from "../../context/DarkModeContext";
+import ReactSignatureCanvas from "react-signature-canvas";
+
+const FormAltasNuevoPersonaFisica = () => {
+  // context para el modo oscuro
+  const { darkMode } = useContext(DarkModeContext);
+
+  // show y setShow son los parametros del despliegue
+  const [show, setShow] = useState(false);
+
+  // funcion para cerrar el modal
+  const handleClose = () => setShow(false);
+
+  // funcion para desplegar el modal
+  const handleShow = () => setShow(true);
+
+  // funcion de control y reseteo del hook useForm
+  const { control, reset } = useForm();
+
+  // Estados para el tipo de persona
+  const [mostrarFormJuridico, setMostrarFormJuridico] = useState(false);
+  const [tipoPersona, setTipoPersona] = useState("fisica");
+
+  // Estado para almacenar datos del formulario
+  const [formData, setFormData] = useState({
+    TipoPersona: "fisica",
+  });
+
+  // Referencia para la firma digital
+  const sigCanvas = useRef({});
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const form = event.currentTarget;
+    if (form.checkValidity() === false) {
+      event.stopPropagation();
+      return;
+    }
+    const token = sessionStorage.getItem("token");
+
+    if (!token) {
+      console.error("No se encontró token en sessionStorage.");
+      return;
+    }
+    const firmaDigital = sigCanvas.current
+      .getTrimmedCanvas()
+      .toDataURL("image/png");
+
+    // Agregar token a formData antes de enviar
+    const formDataWithToken = { ...formData, AltaFirmada: firmaDigital, token };
+
+    try {
+      const response = await fetch("/api/formulario/formularioaltacrear", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formDataWithToken),
+      });
+
+      if (!response.ok) {
+        throw new Error("La respuesta de la red no fue correcta");
+      }
+      window.location.reload();
+    } catch (error) {
+      console.error("Hubo un error:", error);
+    }
+  };
+
+  // Función para actualizar los datos del formulario
+  const handleChange = (event) => {
+    const { name, type, checked, value, files } = event.target;
+    if (type === "checkbox") {
+      let textValue = checked ? value : "";
+      setFormData((prevFormData) => ({
+        ...prevFormData,
+        [name]: textValue,
+      }));
+    } else if (type === "radio") {
+      if (value === "Monotributista") {
+        setFormData((prevFormData) => ({
+          ...prevFormData,
+          condicionAFIP: value,
+          AfipExentoGanancia: "",
+          AfipExentoIva: "",
+        }));
+        setIsActiveResponsableInscripto(false);
+      } else if (value === "Responsable Inscripto") {
+        setFormData((prevFormData) => ({
+          ...prevFormData,
+          condicionAFIP: value,
+        }));
+        setIsActiveResponsableInscripto(true);
+      } else {
+        setFormData((prevFormData) => ({
+          ...prevFormData,
+          [name]: value,
+        }));
+      }
+    }
+    if (name === "Banco") {
+      setFormData((prevFormData) => ({
+        ...prevFormData,
+        Banco: value.label,
+      }));
+    } else if (name.startsWith("TipoCuenta")) {
+      setFormData((prevFormData) => ({
+        ...prevFormData,
+        TipoCuenta: value,
+      }));
+    }
+    if (type === "file") {
+      if (files.length > 0) {
+        const file = files[0];
+        convertToBase64(file, (base64) => {
+          setFormData((prevFormData) => ({
+            ...prevFormData,
+            [name]: base64,
+          }));
+        });
+      }
+    } else {
+      setFormData((prevFormData) => ({
+        ...prevFormData,
+        [name]: value,
+      }));
+    }
+  };
+
+  // Función para convertir la firma digital en base64
+  const convertToBase64 = (file, callback) => {
+    const reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = () => callback(reader.result);
+    reader.onerror = (error) => console.error("Error: ", error);
+  };
+
+  // Función para resetear el formulario
+  const resetForm = () => {
+    setFormData({});
+    sigCanvas.current.clear();
+  };
+
+  const [isActiveResponsableInscripto, setIsActiveResponsableInscripto] =
+    useState(false);
+
+  const [bancos, setBancos] = useState([]);
+
+  useEffect(() => {
+    const getbanco = async () => {
+      const response = await fetch("/api/Banco/lista", {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      const data = await response.json();
+      setBancos(data);
+    };
+
+    getbanco();
+  }, []);
+
+  // mapear las opciones de los bancos
+  const optionsBancos = bancos.map((banco) => ({
+    value: banco.nomBanco,
+    label: banco.nomBanco,
+  }));
+
+  const [rubros, setRubros] = useState([]);
+  const [comercios, setComercios] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  useEffect(() => {
+    const fetchRubros = async () => {
+      try {
+        const response = await fetch("/api/Rubro/lista");
+        if (!response.ok) {
+          throw new Error("Error fetching Rubros");
+        }
+        const data = await response.json();
+        setRubros(data);
+      } catch (error) {
+        setError(error.message);
+      }
+    };
+
+    const fetchComercios = async () => {
+      try {
+        const response = await fetch("/api/Comercio/lista");
+        if (!response.ok) {
+          throw new Error("Error fetching Comercios");
+        }
+        const data = await response.json();
+        setComercios(data);
+      } catch (error) {
+        setError(error.message);
+      }
+    };
+
+    const fetchData = async () => {
+      setLoading(true);
+      await Promise.all([fetchRubros(), fetchComercios()]);
+      setLoading(false);
+    };
+
+    fetchData();
+  }, []);
+
+  // Mapear las opciones de los rubros
+  const optionsNumeroComercioActualTerminal = rubros.map((rubro) => ({
+    value: rubro.nomRubro,
+    label: rubro.nomRubro,
+  }));
+
+  // Mapear las opciones de los comercios
+  const optionsNumeroComercioSolicitado = comercios.map((comercio) => ({
+    value: comercio.numComercio,
+    label: comercio.numComercio,
+  }));
+  return (
+    <>
+      <section className="container">
+        <Form onSubmit={handleSubmit}>
+          {/* Formulario contenido aquí */}
+
+          <div>
+            <Row className="mb-3">
+              <Form.Group as={Col} md="8" sm="12">
+                <Form.Label className="fs-14">N° de terminal</Form.Label>
+                <Form.Control
+                  type="number"
+                  name="TerminalN"
+                  maxLength={10}
+                  required
+                  value={formData.TerminalN}
+                  onChange={handleChange}
+                  className="input-formulario fs-14"
+                  placeholder="Ingresar el N° Terminal"
+                />
+              </Form.Group>
+              {/* <Form.Group as={Col} md="4">
+                  <Form.Label>Fecha</Form.Label>
+                  <Form.Control
+                    className="input-formulario-corto-fecha"
+                    type="text"
+                    name="FechaApertura"
+                    required
+                    value={formData.FechaApertura}
+                    disabled
+                  />
+                </Form.Group> */}
+            </Row>
+            {/* DATOS ALIADO */}
+            <Row className="mb-1">
+              <div className="mt-1">
+                <h6> Datos del aliado</h6>
+              </div>
+              <Form.Group as={Col} md="7" controlId="validationCustom01">
+                <Form.Label className=" fs-14">Apellido y nombre</Form.Label>
+                <Form.Control
+                  required
+                  type="text"
+                  className="input-formulario fs-14"
+                  name="ApellidoYnombre"
+                  value={formData.ApellidoYnombre}
+                  onChange={handleChange}
+                  placeholder="Ingresar apellido y nombre"
+                />
+              </Form.Group>
+              <Form.Group as={Col} md="5">
+                <Form.Label className=" fs-14">DNI/CUIT</Form.Label>
+                <Form.Control
+                  className="input-formulario-corto fs-14"
+                  required
+                  type="number"
+                  name="Cuittitular"
+                  value={formData.Cuittitular}
+                  onChange={handleChange}
+                  placeholder="DNI/CUIT"
+                />
+              </Form.Group>
+              <Form.Group
+                className="py-2"
+                as={Col}
+                md="12"
+                controlId="validationCustom01"
+              >
+                <Form.Label className="mt-2 fs-14">
+                  Actividad laboral o profesional
+                </Form.Label>
+                <Form.Control
+                  required
+                  type="text"
+                  className="input-formulario fs-14"
+                  name="ActividadLaboralProfesional"
+                  value={formData.ActividadLaboralProfesional}
+                  onChange={handleChange}
+                  placeholder="Ingresar actividad laboral y profesional"
+                />
+              </Form.Group>
+              <div className="mt-2">
+                <h6> Domicilio real del titular</h6>
+              </div>
+              <Form.Group as={Col} md="6" sm="12">
+                <Form.Label className="mt-2 fs-14">Calle</Form.Label>
+                <Form.Control
+                  required
+                  type="text"
+                  className="input-formulario fs-14"
+                  id="Calle"
+                  name="Calle"
+                  value={formData.Calle}
+                  onChange={handleChange}
+                  placeholder="Ingresar calle"
+                />
+              </Form.Group>
+              <Form.Group as={Col} md="2" sm="12">
+                <Form.Label className="mt-2 fs-14">N°</Form.Label>
+                <Form.Control
+                  className="input-formulario fs-14"
+                  required
+                  type="number"
+                  name="NumeroCalle"
+                  value={formData.NumeroCalle}
+                  onChange={handleChange}
+                  placeholder="Ingresar N°"
+                />
+              </Form.Group>
+              <Form.Group as={Col} md="4" sm="12">
+                <Form.Label className="mt-2 fs-14">Localidad</Form.Label>
+                <Form.Control
+                  className="input-formulario fs-14"
+                  required
+                  type="text"
+                  name="LocalidadTitular"
+                  value={formData.LocalidadTitular}
+                  onChange={handleChange}
+                  placeholder="Ingresar Localidad"
+                />
+              </Form.Group>
+            </Row>
+            <Row className="mb-1">
+              <Form.Group as={Col} md="5" sm="12">
+                <Form.Label className="mt-2 fs-14">Provincia</Form.Label>
+                <Form.Control
+                  required
+                  type="text"
+                  className="input-formulario fs-14"
+                  name="Provincia"
+                  value={formData.Provincia}
+                  onChange={handleChange}
+                  placeholder="Ingresar Provincia"
+                />
+              </Form.Group>
+              <Form.Group as={Col} md="4" sm="12">
+                <Form.Label className="mt-2 fs-14">País</Form.Label>
+                <Form.Control
+                  className="input-formulario fs-14"
+                  required
+                  type="text"
+                  name="Pais"
+                  value={formData.Pais}
+                  onChange={handleChange}
+                  placeholder="Ingresar País"
+                />
+              </Form.Group>
+              <Form.Group as={Col} md="3" sm="12">
+                <Form.Label className="mt-2 fs-14">Código postal</Form.Label>
+                <Form.Control
+                  className="input-formulario fs-14"
+                  required
+                  type="number"
+                  name="CodigoPostalTitular"
+                  value={formData.CodigoPostalTitular}
+                  onChange={handleChange}
+                  placeholder="Ingresar Codigo Postal"
+                />
+              </Form.Group>
+            </Row>
+            <Row className="mb-3">
+              <Form.Group as={Col} md="8" sm="12">
+                <Form.Label className="mt-2 fs-14">Nacionalidad</Form.Label>
+                <Form.Control
+                  required
+                  type="text"
+                  className="input-formulario fs-14"
+                  name="Nacionalidad"
+                  value={formData.Nacionalidad}
+                  onChange={handleChange}
+                  placeholder="Ingresar Nacionalidad"
+                />
+              </Form.Group>
+              <Form.Group as={Col} md="4" sm="12">
+                <Form.Label className="mt-2 fs-14">
+                  Fecha de nacimiento
+                </Form.Label>
+                <Form.Control
+                  className="input-formulario fs-14"
+                  required
+                  type="date"
+                  name="FechaNacimiento"
+                  value={formData.FechaNacimiento}
+                  onChange={handleChange}
+                />
+              </Form.Group>
+            </Row>
+            <Row className="mb-1">
+              <div>
+                <h6 className="color-label lato-bold "> Número de teléfono:</h6>
+              </div>
+              <Form.Group as={Col} md="6" sm="12">
+                <Form.Label className="fs-14 pt-2 ">Celular</Form.Label>
+                <Form.Control
+                  required
+                  type="number"
+                  className="input-formulario fs-14"
+                  name="Celular"
+                  value={formData.Celular}
+                  onChange={handleChange}
+                  placeholder="Ingresar N° Cel"
+                />
+              </Form.Group>
+              <Form.Group as={Col} md="6" sm="12">
+                <Form.Label className="fs-14 mt-2">Tel. fijo</Form.Label>
+                <Form.Control
+                  className="input-formulario fs-14"
+                  required
+                  type="number"
+                  name="TelFijo"
+                  value={formData.TelFijo}
+                  onChange={handleChange}
+                  placeholder="Ingresar Tel. Fijo"
+                />
+              </Form.Group>
+            </Row>
+            <Row className="mb-3">
+              <Form.Group as={Col} md="12" sm="12s">
+                <Form.Label className="fs-14">Correo electrónico</Form.Label>
+                <Form.Control
+                  required
+                  type="email"
+                  className="input-formulario fs-14"
+                  name="Correo"
+                  value={formData.Correo}
+                  onChange={handleChange}
+                  placeholder="Ingresar Correo electrónico"
+                />
+              </Form.Group>
+            </Row>
+
+            {/* DATOS DEL COMERCIO */}
+            <Row className="mb-1">
+              <div>
+                <h6 className="mt-2 lato-bold "> Datos del comercio</h6>
+              </div>
+              <Form.Group as={Col} md="12" sm="12">
+                <Form.Label className="fs-14">Nombre de fantasía</Form.Label>
+                <Form.Control
+                  required
+                  type="text"
+                  className="input-formulario fs-14"
+                  name="NombreFantasia"
+                  value={formData.NombreFantasia}
+                  onChange={handleChange}
+                  placeholder="Ingresar Nombre de fantasía "
+                />
+              </Form.Group>
+            </Row>
+            <Row className="mb-3">
+              <Form.Group as={Col} md="6" sm="12">
+                <Form.Label className="fs-14 pt-2">Domicilio</Form.Label>
+                <Form.Control
+                  required
+                  type="text"
+                  className="input-formulario fs-14"
+                  name="Domicilio"
+                  value={formData.Domicilio}
+                  onChange={handleChange}
+                  placeholder="Ingresar Domicilio del comercio"
+                />
+              </Form.Group>
+              <Form.Group as={Col} md="3" sm="12">
+                <Form.Label className="pt-2 fs-14">Localidad</Form.Label>
+                <Form.Control
+                  required
+                  type="text"
+                  className="input-formulario fs-14"
+                  name="LocalidadComercio"
+                  value={formData.LocalidadComercio}
+                  onChange={handleChange}
+                  placeholder="Ingresar Localidad del Comercio"
+                />
+              </Form.Group>
+              <Form.Group as={Col} md="3" sm="12">
+                <Form.Label className="pt-2 fs-14">Cód. postal</Form.Label>
+                <Form.Control
+                  required
+                  type="number"
+                  className="input-formulario fs-14"
+                  name="CodigoPostalComercio"
+                  value={formData.CodigoPostalComercio}
+                  onChange={handleChange}
+                  placeholder="Ingresar Código postal del comercio"
+                />
+              </Form.Group>
+            </Row>
+            <Row className="mb-3">
+              <h6 className="mt-2"> Condición fiscal</h6>
+              <div className="row">
+                <section className="col-lg-6 col-12">
+                  <h6 className="mt-2 fs-16">AFIP</h6>
+                  <article className="d-flex">
+                    <div className="form-check me-4">
+                      <input
+                        className="form-check-input"
+                        type="radio"
+                        name="condicionAFIP"
+                        id="Monotributista"
+                        value="Monotributista"
+                        checked={formData.condicionAFIP === "Monotributista"}
+                        onChange={handleChange}
+                        onClick={() => setIsActiveResponsableInscripto(false)}
+                      />
+                      <label
+                        className="form-check-label lato-bold fs-14"
+                        htmlFor="Monotributista"
+                      >
+                        Monotributista
+                      </label>
+                    </div>
+                    <div className="form-check">
+                      <input
+                        className="form-check-input"
+                        type="radio"
+                        name="condicionAFIP"
+                        id="responsableInscripto"
+                        value="Responsable Inscripto"
+                        checked={
+                          formData.condicionAFIP === "Responsable Inscripto"
+                        }
+                        onChange={handleChange}
+                        onClick={() => setIsActiveResponsableInscripto(true)}
+                      />
+                      <label
+                        className="form-check-label lato-bold fs-14"
+                        htmlFor="responsableInscripto"
+                      >
+                        Resp. Inscripto
+                      </label>
+                    </div>
+                  </article>
+                  <article className="d-flex">
+                    <div className="form-check me-4">
+                      <input
+                        className="form-check-input"
+                        type="checkbox"
+                        name="AfipExentoGanancia"
+                        id="AfipExentoGanancia"
+                        value="Exento Ganancia"
+                        onChange={handleChange}
+                        checked={
+                          formData.AfipExentoGanancia === "Exento Ganancia"
+                        }
+                        disabled={!isActiveResponsableInscripto}
+                      />
+                      <label
+                        className="form-check-label lato-bold fs-14"
+                        htmlFor="AfipExentoGanancia"
+                      >
+                        Exento Ganancia
+                      </label>
+                    </div>
+                    <div className="form-check">
+                      <input
+                        className="form-check-input"
+                        type="checkbox"
+                        name="AfipExentoIva"
+                        id="AfipExentoIva"
+                        value="Exento IVA"
+                        onChange={handleChange}
+                        checked={formData.AfipExentoIva === "Exento IVA"}
+                        disabled={!isActiveResponsableInscripto}
+                      />
+                      <label
+                        className="form-check-label lato-bold fs-16"
+                        htmlFor="AfipExentoIva"
+                      >
+                        Exento IVA
+                      </label>
+                    </div>
+                  </article>
+                </section>
+                <section className="col-lg-6 col-12">
+                  <h6 className="mt-2 fs-16">RENTAS</h6>
+                  <article className="d-flex">
+                    <div className="form-check me-4">
+                      <input
+                        className="form-check-input"
+                        type="checkbox"
+                        name="RentasIncripto"
+                        id="RentasIncripto"
+                        value="RentasIncripto"
+                        onChange={handleChange}
+                      />
+                      <label
+                        className="form-check-label lato-bold fs-14"
+                        htmlFor="RentasIncripto"
+                      >
+                        Inscripto
+                      </label>
+                    </div>
+                    <div className="form-check">
+                      <input
+                        className="form-check-input"
+                        type="checkbox"
+                        name="RentasConvenioMultilateral"
+                        id="RentasConvenioMultilateral"
+                        value="RentasConvenioMultilateral"
+                        onChange={handleChange}
+                      />
+                      <label
+                        className="form-check-label lato-bold fs-14"
+                        htmlFor="RentasConvenioMultilateral"
+                      >
+                        Convenio Multilateral
+                      </label>
+                    </div>
+                  </article>
+                  <div className="form-check">
+                    <input
+                      className="form-check-input"
+                      type="checkbox"
+                      name="RentasExento"
+                      id="RentasExento"
+                      value="RentasExento"
+                      onChange={handleChange}
+                    />
+                    <label
+                      className="form-check-label lato-bold fs-14"
+                      htmlFor="RentasExento"
+                    >
+                      Exento
+                    </label>
+                  </div>
+                </section>
+              </div>
+            </Row>
+            <div>
+              <h6 className="mt-2">Datos bancario</h6>
+            </div>
+            <div className="row">
+              <section className="col-lg-6 col-12">
+                <article>
+                  <label htmlFor="Banco" className="lato-bold fs-14 ms-1 pb-2 ">
+                    Bancos
+                  </label>
+                  <Controller
+                    name="Banco"
+                    control={control}
+                    render={({ field }) => (
+                      <Select
+                        {...field}
+                        options={optionsBancos}
+                        className="lato-bold fs-12"
+                        classNamePrefix="select"
+                        isSearchable={false}
+                        onChange={(val) =>
+                          setFormData({
+                            ...formData,
+                            Banco: val.label,
+                          })
+                        }
+                      />
+                    )}
+                  />
+                </article>
+              </section>
+              <section className="col-lg-6 col-12">
+                <Row className="mb-3">
+                  <section>
+                    <div>
+                      <h6 className="mt-2 fs-14">Tipo de cuenta:</h6>
+                    </div>
+
+                    <article className="d-flex ">
+                      <div className="form-check me-3">
+                        <input
+                          className="form-check-input"
+                          type="radio"
+                          name="TipoCuenta"
+                          id="cajaDeAhorros"
+                          value="Caja de Ahorros"
+                          onChange={handleChange}
+                        />
+                        <label
+                          className="form-check-label fs-12"
+                          htmlFor="cajaDeAhorros"
+                        >
+                          Caja de Ahorros
+                        </label>
+                      </div>
+                      <div className="form-check me-3">
+                        <input
+                          className="form-check-input"
+                          type="radio"
+                          name="TipoCuenta"
+                          id="cuentaCorriente"
+                          value="Cuenta Corriente"
+                          onChange={handleChange}
+                        />
+                        <label
+                          className="form-check-label fs-12"
+                          htmlFor="cuentaCorriente"
+                        >
+                          Cuenta Corriente
+                        </label>
+                      </div>
+                      <div className="form-check me-3">
+                        <input
+                          className="form-check-input"
+                          type="radio"
+                          name="TipoCuenta"
+                          id="billeteraVirtual"
+                          value="Billetera Virtual"
+                          onChange={handleChange}
+                        />
+                        <label
+                          className="form-check-label fs-12"
+                          htmlFor="billeteraVirtual"
+                        >
+                          Billetera Virtual
+                        </label>
+                      </div>
+                    </article>
+                  </section>
+                </Row>
+              </section>
+              <section>
+                <Row className="mb-3">
+                  <Form.Group as={Col} md="6" sm="12">
+                    <Form.Label className="fs-14 pt-2 ">CBU / CVU</Form.Label>
+                    <Form.Control
+                      type="number"
+                      className="input-formulario fs-14"
+                      name="Cbucvu"
+                      value={formData.Cbucvu}
+                      onChange={handleChange}
+                      placeholder="Ingresar CBU/CVU"
+                    />
+                  </Form.Group>
+                  <Form.Group as={Col} md="6" sm="12">
+                    <Form.Label className="fs-14 mt-2">Alias</Form.Label>
+                    <Form.Control
+                      type="text"
+                      className="input-formulario fs-14"
+                      name="Alias"
+                      value={formData.Alias}
+                      onChange={handleChange}
+                      placeholder="Ingresar Alias"
+                    />
+                  </Form.Group>
+                </Row>
+                <Row className="mb-3">
+                  <Form.Group as={Col} md="6" sm="12">
+                    <Form.Label className="fs-14 pt-2 ">CUIT</Form.Label>
+                    <Form.Control
+                      type="number"
+                      className="input-formulario fs-14"
+                      name="Cuitbancario"
+                      value={formData.Cuitbancario}
+                      onChange={handleChange}
+                      placeholder="Ingresar CUIT"
+                    />
+                  </Form.Group>
+                  <Form.Group as={Col} md="6" sm="12">
+                    <Form.Label className="fs-14 mt-2">
+                      Titular o razón social
+                    </Form.Label>
+                    <Form.Control
+                      type="text"
+                      className="input-formulario fs-14"
+                      name="TitularRazonSocial"
+                      value={formData.TitularRazonSocial}
+                      onChange={handleChange}
+                      placeholder="Ingresar Titular o razón social"
+                    />
+                  </Form.Group>
+                </Row>
+              </section>
+              <section>
+                <h6 className="fs-12">
+                  (En caso de ser sociedad adjuntar copia del contrato social o
+                  acto constitutivo donde conste que la persona física es socio
+                  gerente de la razon social indicada)
+                </h6>
+              </section>
+              <Row className="">
+                <div>
+                  <h6 className="mt-4"> Datos a completar por el asesor</h6>
+                </div>
+                {/* <Form.Group as={Col} md="12" controlId="validationCustom01">
+                    <Form.Label>Nombre del Asesor</Form.Label>
+                    <Form.Control
+                      className="input-formulario-disabled"
+                      type="text"
+                      defaultValue="Francisco Quiroga"
+                      disabled
+                    />
+                  </Form.Group> */}
+              </Row>
+              <Row className="mb-3">
+                <Form.Group as={Col} md="6" sm="12">
+                  <article>
+                    <label
+                      htmlFor="NumeroComercioActual"
+                      className="lato-bold fs-14 ms-1"
+                    >
+                      Número de comercio actual de la terminal
+                    </label>
+                    <Controller
+                      name="NumeroComercioSolicitado"
+                      control={control}
+                      render={({ field }) => (
+                        <input
+                          {...field}
+                          type="number"
+                          className="input-formulario fs-14"
+                          value={formData.NumeroComericoActual}
+                          onChange={(e) => {
+                            const val = e.target.value;
+                            setFormData({
+                              ...formData,
+                              NumeroComericoActual: val,
+                            });
+                            field.onChange(val);
+                          }}
+                        />
+                      )}
+                    />
+                  </article>
+                </Form.Group>
+                <Form.Group as={Col} md="6" sm="12">
+                  <article>
+                    <label htmlFor="Banco" className="lato-bold fs-14 ms-1">
+                      Número de comercio solicitado
+                    </label>
+                    <Controller
+                      name="NumeroComercioSolicitado"
+                      control={control}
+                      render={({ field }) => (
+                        <Select
+                          {...field}
+                          options={optionsNumeroComercioSolicitado}
+                          className="lato-bold fs-12"
+                          classNamePrefix="select"
+                          isSearchable={false}
+                          onChange={(val) =>
+                            setFormData({
+                              ...formData,
+                              NumeroComercioSolicitado: val.label,
+                            })
+                          }
+                        />
+                      )}
+                    />
+                  </article>
+                </Form.Group>
+              </Row>
+
+              <Row>
+                <section className="d-flex">
+                  <div className="form-check me-3">
+                    <input
+                      className="form-check-input "
+                      type="radio"
+                      name="TipoAlta"
+                      id="NuevoAliado"
+                      value="NuevoAliado"
+                      onChange={handleChange}
+                    />
+                    <label
+                      className="form-check-label fs-14"
+                      htmlFor="cajaDeAhorros"
+                    >
+                      Nuevo aliado
+                    </label>
+                  </div>
+                  <div className="form-check me-3">
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="TipoAlta"
+                      id="AgregaTerminal"
+                      value="AgregaTerminal"
+                      onChange={handleChange}
+                    />
+                    <label
+                      className="form-check-label fs-14"
+                      htmlFor="cuentaCorriente"
+                    >
+                      Agrega terminal
+                    </label>
+                  </div>
+                  <div className="form-check me-3">
+                    <input
+                      className="form-check-input"
+                      type="checkbox"
+                      name="NuevoPanel"
+                      id="Se requiere nuevo nombre en el panel de control."
+                      value="Se requiere nuevo nombre en el panel de control."
+                      onChange={handleChange}
+                    />
+                    <label
+                      className="form-check-label fs-12"
+                      htmlFor="billeteraVirtual"
+                    >
+                      Se requiere nuevo nombre en el panel de control.
+                    </label>
+                  </div>
+                </section>
+              </Row>
+            </div>
+            {/* AGREGAR IMAGENES */}
+            <Row className="">
+              <div>
+                <h6 className="mt-4"> Datos del comercio</h6>
+              </div>
+              <Form.Group
+                as={Col}
+                lg="4"
+                md="12"
+                controlId="validationCustom02"
+              >
+                <Form.Label className="fs-14 mt-2">
+                  Cupón de inicialización de la terminal
+                </Form.Label>
+                <Form.Control
+                  type="file"
+                  className="input-form-editar-comanda fs-14"
+                  name="CuponInicializacionTerminal"
+                  onChange={handleChange}
+                  multiple
+                  required
+                />
+              </Form.Group>
+              <Form.Group
+                as={Col}
+                lg="4"
+                md="12"
+                controlId="validationCustom03"
+              >
+                <Form.Label className="fs-14 mt-2">
+                  Constancias fiscales
+                </Form.Label>
+                <Form.Control
+                  type="file"
+                  className="input-form-editar-comanda fs-14"
+                  name="ConstanciaAfip"
+                  onChange={handleChange}
+                  multiple
+                  required
+                />
+              </Form.Group>
+              <Form.Group
+                as={Col}
+                lg="4"
+                md="12"
+                controlId="validationCustom04"
+              >
+                <Form.Label className="fs-14 mt-2">
+                  Constancia de CBU/CVU
+                </Form.Label>
+                <Form.Control
+                  type="file"
+                  className="input-form-editar-comanda fs-14"
+                  name="ContanciaCbuCvu"
+                  onChange={handleChange}
+                  multiple
+                  required
+                />
+              </Form.Group>
+            </Row>
+
+            <Row className="">
+              <Form.Group
+                as={Col}
+                lg="4"
+                md="12"
+                controlId="validationCustom05"
+              >
+                <Form.Label className="fs-14 mt-2">
+                  Copia del DNI del admin., socio o representante
+                </Form.Label>
+                <Form.Control
+                  type="file"
+                  className="input-form-editar-comanda fs-14"
+                  name="Dnifrente"
+                  onChange={handleChange}
+                  multiple
+                  required
+                />
+              </Form.Group>
+              <Form.Group
+                as={Col}
+                lg="4"
+                md="12"
+                controlId="validationCustom05"
+              >
+                <Form.Label className="fs-14 mt-2">
+                  Copia del dorso DNI del admin., socio o representante.
+                </Form.Label>
+                <Form.Control
+                  type="file"
+                  className="input-form-editar-comanda fs-14"
+                  name="Dnidorso"
+                  onChange={handleChange}
+                  multiple
+                  required
+                />
+              </Form.Group>
+              <Form.Group
+                as={Col}
+                lg="4"
+                md="12"
+                controlId="validationCustom06"
+              >
+                <Form.Label className="fs-14 mt-2">
+                  Ficha de autorización
+                </Form.Label>
+                <Form.Control
+                  className="input-form-editar-comanda fs-14"
+                  type="file"
+                  name="FichaAutorizacion"
+                  onChange={handleChange}
+                  multiple
+                  required
+                />
+              </Form.Group>
+            </Row>
+            <section className="mt-4">
+              <h6 className="fs-12">DECLARACIÓN JURADA</h6>
+              <h6 className="fs-12">
+                El que subscribe, con poder suficiente para este acto,
+                manifiesta en calidad de declaración jurada y asumiendo toda la
+                responsabilidad civil, penal y administrativa por cualquier
+                falsedad, omisión u ocultamiento que se verificare, que la
+                información contenida en el presente formulario es veraz, exacta
+                y subsiste al tiempo de efectuarse esta presentación. El
+                comercio aliado manifiesta que no dio ni dará de baja un aparato
+                PosNet para proceder con el alta de la terminal de referencia.
+                Asimismo entiende que de ser realizada dicha acción podría poner
+                a ZOCO S.A.S. en una situación de conflicto de interés con su
+                proveedor con las consecuencias jurídicas que se deriven.El
+                comercio adherido acepta las bases y condiciones del contrato de
+                Zoco SAS (https://zocoweb.com.ar/POLITICAS-ZOCO.pdf) Como prueba
+                a su conformidad firma el presente contrato
+              </h6>
+            </section>
+            {/* Firma digital */}
+            <Row className="mb-3">
+              <div>
+                <h6 className="mt-4">Firma Digital</h6>
+              </div>
+              <article className="container">
+                <Form.Group as={Col} md="12" controlId="firmaDigital">
+                  <ReactSignatureCanvas
+                    ref={sigCanvas}
+                    penColor="black"
+                    canvasProps={{
+                      className: "sigCanvas",
+                    }}
+                  />
+                  <div className="d-flex justify-content-start">
+                    <Button
+                      className="mt-3"
+                      variant="secondary"
+                      onClick={() => sigCanvas.current.clear()}
+                    >
+                      Borrar Firma
+                    </Button>
+                  </div>
+                </Form.Group>
+              </article>
+            </Row>
+          </div>
+          <div className="d-flex justify-content-center">
+            <Button className="btn-guardar-formulario-alta my-5" type="submit">
+              Guardar
+            </Button>
+          </div>
+        </Form>
+      </section>
+    </>
+  );
+};
+
+export default FormAltasNuevoPersonaFisica;

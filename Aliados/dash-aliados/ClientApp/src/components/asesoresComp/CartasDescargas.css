@@ -1,0 +1,76 @@
+.altos-de-cartas {
+  height: 400px !important;
+  border-radius: 30px !important ;
+}
+
+.bg-cartas-altas {
+  background: transparent linear-gradient(149deg, #ffffff 0%, #e5e8ee 100%) 0%
+    0% no-repeat padding-box !important;
+}
+
+.card-img,
+.card-img-top {
+  border-top-left-radius: calc(1rem - 1px) !important;
+  border-top-right-radius: calc(1rem - 1px) !important;
+}
+
+.btn-descargas-cartas-altas {
+  width: 118px !important;
+  height: 38px !important;
+  background: #b4c400 0% 0% no-repeat padding-box !important;
+  border-radius: 28px !important;
+  opacity: 1 !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .btn-descargas-cartas-altas {
+    width: 220px !important;
+    height: 38px !important;
+    background: #b4c400 0% 0% no-repeat padding-box !important;
+    border-radius: 28px !important;
+    opacity: 1 !important;
+  }
+}
+
+.bg-border-cartas-altas{
+  background: transparent linear-gradient(149deg, #FFFFFF 0%, #E5E8EE 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 5px 4px 16px #D0D7E2;
+  border-radius: 0px 0px 28px 28px !important;
+}
+
+.bg-border-cartas-altas-dark{
+  background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0%
+  0% no-repeat padding-box;
+box-shadow: 5px 4px 16px #0c0c0c !important;
+  border-radius: 0px 0px 28px 28px !important;
+}
+
+.precios-cuadro-cartas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1%;
+  grid-row-gap: 3%;
+
+}
+
+/* BREAKPOINT TABLET */
+@media (max-width: 1000px) {
+  .precios-cuadro-cartas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2% !important;
+    grid-row-gap: 1%;
+    margin-bottom: 3vw;
+}
+}
+
+@media (max-width: 800px) {
+  .precios-cuadro-cartas {
+    display: grid;
+    grid-template-columns: 1fr ;
+    column-gap: 0% !important;
+    grid-row-gap: 0%;
+    margin-bottom: 7vw;
+}
+}
+

@@ -1,0 +1,389 @@
+.tabla-thead {
+  font: normal normal bold 12px/14px Lato;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+th,
+td {
+  width: 80px;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 1180px) {
+  th,
+  td {
+    width: 60px;
+    word-wrap: break-word;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  th,
+  td {
+    width: 100px;
+    word-wrap: break-word;
+  }
+}
+
+.table > :not(caption) > * > * {
+  padding: 1rem 1rem;
+  border-bottom-width: 0px !important;
+}
+
+.tabla-borde-bottom {
+  border-bottom: 1px solid #d0d7e2 !important;
+  opacity: 1 1 !important;
+}
+
+.bg-tabla-calculadora {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: transparent linear-gradient(135deg, #ffffff 0%, #e5e8ee 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 5px 4px 16px #d0d7e2;
+  border-radius: 50px;
+  opacity: 1;
+}
+
+.bg-tabla-calculadora-dark {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 5px 4px 16px #0c0c0c !important;
+  border-radius: 50px;
+  opacity: 1;
+  color: #fff !important;
+}
+
+.ingresar-neto {
+  width: 100% !important;
+  height: 52px !important;
+  background: #dde1e8 0% 0% no-repeat padding-box !important;
+  box-shadow: inset 16px 11px 20px #d0d7e2 !important;
+  border-radius: 50px !important;
+  opacity: 1 !important;
+}
+
+.ingresar-neto-dark {
+  width: 238px !important;
+  height: 52px !important;
+  background-color: #212121 !important;
+  box-shadow: inset 5px 4px 15px #16181a !important;
+  border-radius: 50px !important;
+  opacity: 1 !important;
+}
+
+.input-bruto {
+  width: 238px;
+  height: 52px;
+  background: transparent linear-gradient(105deg, #ffffff 0%, #e5e8ee 100%) 0%
+    0% no-repeat padding-box !important;
+  box-shadow: 5px 4px 16px #d0d7e2 !important;
+  border-radius: 50px !important;
+  opacity: 1 !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* tabla con celdas seleccionadas  */
+@media screen and (max-width: 1225px) and (min-width: 1045px) {
+  .priority-11 {
+    display: none;
+  }
+  .priority-10 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1020px) and (min-width: 565px) {
+  .priority-10 {
+    display: none;
+  }
+  .priority-9 {
+    display: none;
+  }
+  .priority-8 {
+    display: none;
+  }
+  .priority-7 {
+    display: none;
+  }
+
+  .priority-6 {
+    display: none;
+  }
+  .priority-5 {
+    display: none;
+  }
+  .priority-4 {
+    display: none;
+  }
+  .priority-3 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 565px) and (min-width: 300px) {
+  .priority-10 {
+    display: none;
+  }
+  .priority-9 {
+    display: none;
+  }
+  .priority-8 {
+    display: none;
+  }
+  .priority-7 {
+    display: none;
+  }
+
+  .priority-6 {
+    display: none;
+  }
+  .priority-5 {
+    display: none;
+  }
+  .priority-4 {
+    display: none;
+  }
+  .priority-3 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .priority-10 {
+    display: none;
+  }
+  .priority-9 {
+    display: none;
+  }
+  .priority-8 {
+    display: none;
+  }
+  .priority-7 {
+    display: none;
+  }
+  .priority-6 {
+    display: none;
+  }
+  .priority-5 {
+    display: none;
+  }
+  .priority-4 {
+    display: none;
+  }
+  .priority-3 {
+    display: none;
+  }
+  .priority-2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .margin-centrado-responsive {
+    margin: auto !important;
+  }
+}
+
+.icono-pdf-xls {
+  width: 26px !important;
+}
+
+.btn-search {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: #b4c400 !important;
+  border-radius: 12px !important;
+}
+
+.btn-search:hover {
+  color: #000000;
+  width: 50px !important;
+  height: 50px !important;
+  background-color: #000000 !important;
+  border-radius: 28px !important;
+  opacity: 1 !important;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.form-control-dark {
+  color: #bbb !important;
+  background-color: #fff;
+  outline: 0;
+}
+
+.label-buscador {
+  width: 245px !important;
+  height: 52px !important;
+  background: #dde1e8 0% 0% no-repeat padding-box !important;
+  box-shadow: inset 16px 11px 20px #d0d7e2 !important;
+  color: #000000;
+  border-radius: 50px !important;
+  opacity: 1 !important;
+  text-align: center;
+}
+
+.label-buscador-dark {
+  width: 245px !important;
+  height: 52px !important;
+  background-color: #212121 !important;
+  box-shadow: inset 5px 4px 15px #16181a !important;
+  color: #fff;
+  border-radius: 50px !important;
+  opacity: 1 !important;
+  text-align: center;
+}
+
+.label-buscador::-webkit-input-placeholder {
+  text-align: center;
+  line-height: 100px;
+}
+
+.btn-pdf-descargar {
+  width: 96px !important;
+  height: 96px !important;
+  background: #b4c400 0% 0% no-repeat padding-box !important;
+  border-radius: 21px;
+  opacity: 1;
+}
+
+.btn-pdf-descargar-disabled {
+  width: 96px !important;
+  height: 96px !important;
+  background: #d0d7e2 0% 0% no-repeat padding-box !important;
+  border: 2px solid #d0d7e2;
+  border-radius: 21px;
+  opacity: 1;
+}
+
+.btn-pdf-descargar:hover {
+  color: #000000;
+  width: 96px !important;
+  height: 96px !important;
+  background-color: #000000 !important;
+  border-radius: 21px;
+  opacity: 1 !important;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+@media only screen and (max-width: 1400px) {
+  .btn-pdf-descargar {
+    background: #b4c400 0% 0% no-repeat padding-box !important;
+    border-radius: 21px;
+    opacity: 1;
+  }
+
+  .icono-pdf-xls {
+    width: 28px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .label-buscador {
+    width: 190px !important;
+    height: 32px;
+    background: #dde1e8 0% 0% no-repeat padding-box !important;
+    box-shadow: inset 16px 11px 20px #d0d7e2 !important;
+    border-radius: 50px !important;
+    opacity: 1 !important;
+  }
+
+  .label-buscador-dark {
+    width: 190px !important;
+    height: 32px;
+    background-color: #212121 !important;
+    box-shadow: inset 5px 4px 15px #16181a !important;
+    color: #fff;
+    border-radius: 50px !important;
+    opacity: 1 !important;
+    text-align: center;
+  }
+
+  .btn-pdf-descargar {
+    width: 80px !important;
+    height: 80px !important;
+    background: #b4c400 0% 0% no-repeat padding-box !important;
+    border-radius: 21px;
+    opacity: 1;
+  }
+
+  .btn-pdf-descargar-disabled {
+    width: 80px !important;
+    height: 80px !important;
+    background: #d0d7e2 0% 0% no-repeat padding-box !important;
+    border: 2px solid #d0d7e2;
+    border-radius: 21px;
+    opacity: 1;
+  }
+  
+  .btn-pdf-descargar:hover {
+    color: #000000;
+    width: 80px !important;
+    height: 80px !important;
+    background-color: #000000 !important;
+    border-radius: 21px;
+    opacity: 1 !important;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+
+  .icono-pdf-xls {
+    width: 26px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .label-buscador {
+    background: #dde1e8 0% 0% no-repeat padding-box !important;
+    box-shadow: inset 16px 11px 20px #d0d7e2 !important;
+    border-radius: 50px !important;
+    opacity: 1 !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .label-buscador {
+    width: 100% !important;
+    background: #dde1e8 0% 0% no-repeat padding-box !important;
+    box-shadow: inset 16px 11px 20px #d0d7e2 !important;
+    border-radius: 50px !important;
+    opacity: 1 !important;
+  }
+}
+
+#miid::placeholder {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.border-tabla-derecha {
+  background: #b4c400 0% 0% padding-box;
+  border-radius: 0px 30px 0px 0px;
+  opacity: 1;
+}
+
+.border-tabla-izquierda {
+  background: black 0% 0% no-repeat padding-box;
+  border-radius: 30px 0px 0px 0px;
+  opacity: 1;
+}

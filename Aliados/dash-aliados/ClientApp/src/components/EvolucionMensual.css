@@ -1,0 +1,628 @@
+.bg-grafica {
+  width: 100%;
+  background: transparent linear-gradient(135deg, #ffffff 0%, #e5e8ee 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 5px 4px 16px #d0d7e2;
+  border-radius: 50px;
+  opacity: 1;
+}
+
+.bg-grafica-dark {
+  width: 100%;
+  background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 5px 4px 16px #0c0c0c !important;
+  border-radius: 50px;
+  opacity: 1;
+  color: white !important;
+}
+
+@media only screen and (max-width: 979px) {
+  .bg-grafica {
+    border-radius: 30px;
+  }
+}
+
+.bg-grafica-celular {
+  width: 100%;
+  background: transparent linear-gradient(154deg, #ffffff 0%, #e5e8ee 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 5px 4px 16px #d0d7e2;
+  border-radius: 30px;
+  opacity: 1;
+}
+
+.bg-grafica-celular-dark {
+  width: 100%;
+  background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 5px 4px 16px #0c0c0c !important;
+  border-radius: 30px;
+  opacity: 1;
+}
+
+.btn-activar-monto {
+  background: #b4c400 !important;
+  padding: 0.5rem;
+  border: #b4c400 !important;
+  border-style: solid !important;
+  border-radius: 200px;
+  border-radius: 200px;
+  color: #0c0c0c !important;
+  width: 110px !important;
+  font-weight: 600;
+  font-size: 12px !important;
+}
+
+.btn-activar-monto-dark {
+  background: #b4c400 !important;
+  padding: 0.5rem;
+  border: #b4c400 !important;
+  border-style: solid !important;
+  border-radius: 200px;
+  color: #fafafa !important;
+
+  width: 110px !important;
+  font-weight: 600;
+  font-size: 12px !important;
+}
+
+.btn-activar-monto-activo {
+  background: transparent !important;
+  padding: 0.5rem;
+  border: #b4c400 !important;
+  border-style: solid !important;
+  border-radius: 200px;
+  color: #0c0c0c;
+
+   width: 110px !important;
+  font-weight: 600;
+  font-size: 12px !important;
+}
+
+.btn-activar-inflacion-desactivado {
+  background: transparent !important;
+  border-radius: 200px;
+  border: #292b2f !important;
+  border-style: solid !important;
+
+  color: #0c0c0c;
+  padding: 0.5rem;
+   width: 110px !important;
+  font-weight: 600;
+  font-size: 12px !important;
+}
+
+.btn-activar-inflacion-activado {
+  background: #292b2f !important;
+  border-radius: 200px;
+  border: #292b2f !important;
+  border-style: solid !important;
+
+  color: #ffffff;
+  padding: 0.5rem;
+   width: 110px !important;
+  font-weight: 600;
+  font-size: 12px !important;
+}
+
+.btn-inflacion-activado-dark {
+  background: #ffffff !important;
+  border-radius: 200px;
+  border: #ffffff !important;
+  border-style: solid !important;
+
+  color: #0c0c0c;
+  padding: 0.5rem;
+   width: 110px !important;
+  font-weight: 600;
+  font-size: 12px !important;
+}
+
+.btn-inflacion-desactivado-dark {
+  background: transparent !important;
+  border-radius: 200px;
+
+  color: #0c0c0c;
+  border: #0c0c0c!important;
+  border-style: solid !important;
+  padding: 0.5rem;
+   width: 110px !important;
+  font-weight: 600;
+  font-size: 12px !important;
+}
+
+.btn-activar-operaciones-desactivado {
+  background: transparent !important;
+  border-radius: 200px;
+  border: #b3b5bf !important;
+  border-style: solid !important;
+
+  color: #0c0c0c !important;
+  padding: 0.5rem;
+   width: 110px !important;
+  font-weight: 600;
+  font-size: 12px !important;
+}
+
+.btn-operaciones-activado {
+  background: #b3b5bf !important;
+  border-radius: 200px;
+  border: #b3b5bf !important;
+  border-style: solid !important;
+  color: #0c0c0c !important;
+  padding: 0.5rem;
+   width: 110px !important;
+  font-weight: 600;
+  font-size: 12px !important;
+}
+
+.btn-operaciones-desactivado-dark {
+  background: transparent !important;
+  border-radius: 200px;
+  color: #000000 !important;
+  border: #b3b5bf !important;
+  border-style: solid !important;
+  padding: 0.5rem;
+   width: 110px !important;
+  font-weight: 600;
+  font-size: 12px !important;
+}
+
+.btn-operaciones-desactivado {
+  background: transparent !important;
+  border-radius: 200px;
+  color: #0c0c0c;
+  border: #b3b5bf !important;
+  border-style: solid !important;
+  padding: 0.5rem;
+   width: 110px !important;
+  font-weight: 600;
+  font-size: 12px !important;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .btn-activar-monto {
+    background: #b4c400 !important;
+    padding: 0.5rem;
+    border: #b4c400 !important;
+    border-style: solid !important;
+    border-radius: 200px;
+    border-radius: 200px;
+    color: #0c0c0c !important;
+    width: 80px;
+    font-weight: 600;
+    font-size: 9px !important;
+  }
+
+  .btn-activar-monto-dark {
+    background: #b4c400 !important;
+    padding: 0.5rem;
+    border: #b4c400 !important;
+    border-style: solid !important;
+    border-radius: 200px;
+    color: #fafafa !important;
+    width: 80px;
+    font-weight: 600;
+    font-size: 9px !important;
+  }
+
+  .btn-activar-monto-activo {
+    background: transparent !important;
+    padding: 0.5rem;
+    border: #b4c400 !important;
+    border-style: solid !important;
+    border-radius: 200px;
+    color: #0c0c0c;
+    width: 80px;
+    font-weight: 600;
+    font-size: 9px !important;
+  }
+
+  .btn-activar-inflacion-desactivado {
+    background: transparent !important;
+    border-radius: 200px;
+    border: #292b2f !important;
+    border-style: solid !important;
+
+    color: #0c0c0c;
+    padding: 0.5rem;
+    width: 80px;
+    font-weight: 600;
+    font-size: 9px !important;
+  }
+
+  .btn-activar-inflacion-activado {
+    background: #292b2f !important;
+    border-radius: 200px;
+    border: #292b2f !important;
+    border-style: solid !important;
+
+    color: #ffffff;
+    padding: 0.5rem;
+    width: 80px;
+    font-weight: 600;
+    font-size: 9px !important;
+  }
+
+  .btn-inflacion-activado-dark {
+    background: #ffffff !important;
+    border-radius: 200px;
+    border: #ffffff !important;
+    border-style: solid !important;
+
+    color: #0c0c0c;
+    padding: 0.5rem;
+    width: 80px;
+    font-weight: 600;
+    font-size: 9px !important;
+  }
+
+  .btn-inflacion-desactivado-dark {
+    background: transparent !important;
+    border-radius: 200px;
+
+    color: #0c0c0c;
+    border: #ffffff !important;
+    border-style: solid !important;
+    padding: 0.5rem;
+    width: 80px;
+    font-weight: 600;
+    font-size: 9px !important;
+  }
+
+  .btn-activar-operaciones-desactivado {
+    background: transparent !important;
+    border-radius: 200px;
+    border: #b3b5bf !important;
+    border-style: solid !important;
+
+    color: #0c0c0c;
+    padding: 0.5rem;
+    width: 80px;
+    font-weight: 600;
+    font-size: 9px !important;
+  }
+
+  .btn-operaciones-activado {
+    background: #b3b5bf !important;
+    border-radius: 200px;
+    border: #b3b5bf !important;
+    border-style: solid !important;
+    color: #0c0c0c !important;
+    padding: 0.5rem !important;
+    width: 80px !important;
+    font-weight: 600 !important;
+    font-size: 9px !important;
+  }
+
+  .btn-operaciones-desactivado-dark {
+    background: transparent !important;
+    border-radius: 200px;
+
+    color: #ffffff;
+    border: #b3b5bf !important;
+    border-style: solid !important;
+    padding: 0.5rem;
+    width: 80px;
+    font-weight: 600;
+    font-size: 9px !important;
+  }
+
+  .btn-operaciones-desactivado {
+    background: transparent !important;
+    border-radius: 200px;
+
+    color: #0c0c0c !important;
+    border: #b3b5bf !important;
+    border-style: solid !important;
+    padding: 0.5rem;
+    width: 80px;
+    font-weight: 600;
+    font-size: 9px !important;
+  }
+}
+
+
+@media only screen and (max-width: 579px) {
+  .bg-grafica-celular {
+    width: 100%;
+    background: transparent linear-gradient(154deg, #ffffff 0%, #e5e8ee 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 30px;
+    opacity: 1;
+  }
+
+  .btn-activar-monto {
+    background: #b4c400 !important;
+    padding: 0.5rem;
+    border: #b4c400 !important;
+    border-style: solid !important;
+    border-radius: 200px;
+    border-radius: 200px;
+    color: #0c0c0c !important;
+    width: 70px !important;
+    font-weight: 600;
+    font-size: 9px !important;
+  }
+
+  .btn-activar-monto-dark {
+    background: #b4c400 !important;
+    padding: 0.5rem;
+    border: #b4c400 !important;
+    border-style: solid !important;
+    border-radius: 200px;
+    color: #fafafa !important;
+    width: 70px !important;
+    font-weight: 600;
+    font-size: 9px !important;
+  }
+
+  .btn-activar-monto-activo {
+    background: transparent !important;
+    padding: 0.5rem;
+    border: #b4c400 !important;
+    border-style: solid !important;
+    border-radius: 200px;
+    color: #0c0c0c;
+    width: 70px !important;
+    font-weight: 600;
+    font-size: 9px !important;
+  }
+
+  .btn-activar-inflacion-desactivado {
+    background: transparent !important;
+    border-radius: 200px;
+    border: #292b2f !important;
+    border-style: solid !important;
+
+    color: #0c0c0c;
+    padding: 0.5rem;
+    width: 70px !important;
+    font-weight: 600;
+    font-size: 9px !important;
+  }
+
+  .btn-activar-inflacion-activado {
+    background: #292b2f !important;
+    border-radius: 200px;
+    border: #292b2f !important;
+    border-style: solid !important;
+
+    color: #ffffff;
+    padding: 0.5rem;
+    width: 70px !important;
+    font-weight: 600;
+    font-size: 9px !important;
+  }
+
+  .btn-inflacion-activado-dark {
+    background: #ffffff !important;
+    border-radius: 200px;
+    border: #ffffff !important;
+    border-style: solid !important;
+    color: #0c0c0c;
+    padding: 0.5rem;
+    width: 70px !important;
+    font-weight: 600;
+    font-size: 9px !important;
+  }
+
+  .btn-inflacion-desactivado-dark {
+    background: transparent !important;
+    border-radius: 200px;
+
+    color: #0c0c0c;
+    border: #ffffff !important;
+    border-style: solid !important;
+    padding: 0.5rem;
+    width: 70px !important;
+    font-weight: 600;
+    font-size: 9px !important;
+  }
+
+  .btn-activar-operaciones-desactivado {
+    background: transparent !important;
+    border-radius: 200px;
+    border: #b3b5bf !important;
+    border-style: solid !important;
+
+    color: #0c0c0c;
+    padding: 0.5rem;
+    width: 70px !important;
+    font-weight: 600;
+    font-size: 9px !important;
+  }
+
+  .btn-operaciones-activado {
+    background: #b3b5bf !important;
+    border-radius: 200px;
+    border: #b3b5bf !important;
+    border-style: solid !important;
+
+    color: #0c0c0c;
+    padding: 0.5rem;
+    width: 70px !important;
+    font-weight: 600;
+    font-size: 9px !important;
+  }
+
+  .btn-operaciones-desactivado-dark {
+    background: transparent !important;
+    border-radius: 200px;
+
+    color: #ffffff;
+    border: #b3b5bf !important;
+    border-style: solid !important;
+    padding: 0.5rem;
+    width: 70px !important;
+    font-weight: 600;
+    font-size: 9px !important;
+  }
+
+  .btn-operaciones-desactivado {
+    background: transparent !important;
+    border-radius: 200px;
+
+    color: #0c0c0c;
+    border: #b3b5bf !important;
+    border-style: solid !important;
+    padding: 0.5rem;
+    width: 70px !important;
+    font-weight: 600;
+    font-size: 9px !important;
+  }
+}
+
+
+@media only screen and (max-width: 390px) {
+  .bg-grafica-celular {
+    width: 100%;
+    background: transparent linear-gradient(154deg, #ffffff 0%, #e5e8ee 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 30px;
+    opacity: 1;
+  }
+
+  .btn-activar-monto {
+    background: #b4c400 !important;
+    padding: 0.5rem;
+    border: #b4c400 !important;
+    border-style: solid !important;
+    border-radius: 200px;
+    border-radius: 200px;
+    color: #0c0c0c !important;
+    width: 58px !important;
+    font-weight: 600;
+    font-size: 8px !important;
+  }
+  
+  .btn-activar-monto-dark {
+    background: #b4c400 !important;
+    padding: 0.5rem;
+    border: #b4c400 !important;
+    border-style: solid !important;
+    border-radius: 200px;
+    color: #fafafa !important;
+    width: 58px !important;
+    font-weight: 600;
+    font-size: 8px !important;
+  }
+  
+  .btn-activar-monto-activo {
+    background: transparent !important;
+    padding: 0.5rem;
+    border: #b4c400 !important;
+    border-style: solid !important;
+    border-radius: 200px;
+    color: #0c0c0c;
+    width: 58px !important;
+    font-weight: 600;
+    font-size: 8px !important;
+  }
+  
+  .btn-activar-inflacion-desactivado {
+    background: transparent !important;
+    border-radius: 200px;
+    border: #292b2f !important;
+    border-style: solid !important;
+  
+    color: #0c0c0c;
+    padding: 0.5rem;
+    width: 58px !important;
+    font-weight: 600;
+    font-size: 8px !important;
+  }
+  
+  .btn-activar-inflacion-activado {
+    background: #292b2f !important;
+    border-radius: 200px;
+    border: #292b2f !important;
+    border-style: solid !important;
+  
+    color: #ffffff;
+    padding: 0.5rem;
+    width: 58px !important;
+    font-weight: 600;
+    font-size: 8px !important;
+  }
+  
+  .btn-inflacion-activado-dark {
+    background: #ffffff !important;
+    border-radius: 200px;
+    border: #ffffff !important;
+    border-style: solid !important;
+  
+    color: #0c0c0c;
+    padding: 0.5rem;
+    width: 58px !important;
+    font-weight: 600;
+    font-size: 8px !important;
+  }
+  
+  .btn-inflacion-desactivado-dark {
+    background: transparent !important;
+    border-radius: 200px;
+    color: #0c0c0c;
+    border: #ffffff !important;
+    border-style: solid !important;
+    padding: 0.5rem;
+    width: 58px !important;
+    font-weight: 600;
+    font-size: 7px !important;
+  }
+  
+  .btn-activar-operaciones-desactivado {
+    background: transparent !important;
+    border-radius: 200px;
+    border: #b3b5bf !important;
+    border-style: solid !important;
+  
+    color: #0c0c0c;
+    padding: 0.5rem;
+    width: 58px !important;
+    font-weight: 600;
+    font-size: 7px !important;
+  }
+  
+  .btn-operaciones-activado {
+    background: #b3b5bf !important;
+    border-radius: 200px;
+    border: #b3b5bf !important;
+    border-style: solid !important;
+    color: #0c0c0c;
+    padding: 0.5rem;
+    width: 58px !important;
+    font-weight: 600;
+    font-size: 7px !important;
+  }
+  
+  .btn-operaciones-desactivado-dark {
+    background: transparent !important;
+    border-radius: 200px;
+    color: #ffffff;
+    border: #b3b5bf !important;
+    border-style: solid !important;
+    padding: 0.5rem;
+    width: 58px !important;
+    font-weight: 600;
+    font-size: 7px !important;
+  }
+  
+  .btn-operaciones-desactivado {
+    background: transparent !important;
+    border-radius: 200px;
+    color: #0c0c0c;
+    border: #b3b5bf !important;
+    border-style: solid !important;
+    padding: 0.5rem;
+    width: 58px !important;
+    font-weight: 600;
+    font-size: 7px !important;
+  }
+  
+}
+

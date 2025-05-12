@@ -1,0 +1,228 @@
+/* Custom CSS exclusivamente para el componente PopUp similar al diseño proporcionado */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.zocoModalShadow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+
+  }
+  
+  .zocoPopupContainer {
+    background: #ffffff;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    text-align: left;
+    border-radius: 50px;
+
+  }
+  .zocoIcono{
+    width: 40;
+    height: 40;
+  }
+  
+  .zocoPopupContainer .zocoCloseButton {
+    background: none;
+    border: none;
+    font-size: 0.2rem;
+    color: #6c757d;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  
+  .zocoPopupContainer .zocoCloseButton:hover {
+    color: #b4c400;
+  }
+  .ZocoTextcenter{
+    text-align: center;
+    
+  }
+  
+  .zocoPopupContainer h6 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #B3C300;
+    text-align: center;
+  }
+  
+  .zocoPopupContainer span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #333333;
+  }
+  
+  .zocoPopupContainer .zocoActionButton {
+    background-color: #b4c400;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .zocoPopupContainer .zocoActionButton:hover {
+    background-color: #a1af00;
+  }
+  
+  .zocoPopupContainer .zocoBoldText {
+    font-weight: 700;
+  }
+  
+  .zocoPopupContainer .zocoRegularText {
+    font-weight: 500;
+  }
+  .zocoPopupContainer .zocoContainer{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+   
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: "#656564" !important;
+    font-weight: 500;
+    
+  }
+  .zocoPopupContainer .zocoContainer span{
+    font-size: 15px;
+    
+  }
+  /* Para el diseño de las filas */
+  .zocoPopupContainer .zocoRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    padding-left: 10px;
+    padding-right: 15px;
+  }
+  
+  .zocoPopupContainer .zocoRowAlignCenter {
+    display: flex;
+    align-items: center;
+  }
+  
+  .zocoPopupContainer .zocoMotivo {
+    font-size: 14px;
+    font-weight: 1000;
+    color: #000000;
+    flex: 2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+  }
+  .zocoPopupContainer .zocoMotivo h6{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    
+  }
+  
+  .zocoPopupContainer .zocoIcon {
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .zocoPopupContainer .zocoConteo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #b4c400;
+    flex: 1;
+    text-align: right;
+  }
+  
+  .zocoPopupContainer .zocoTextCenter {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .zocoPopupContainer .zocoFontSmall {
+    font-size: 12px;
+  }
+  
+  .zocoPopupContainer .zocoFontMedium {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.12px;
+  }
+  
+  .zocoPopupContainer .zocoFontLarge {
+    font-size: 18px;
+  }
+  
+  .zocoPopupContainer .zocoFontXL {
+    font-size: 20px;
+  }
+  
+  .zocoPopupContainer .zocoFontXXL {
+    font-size: 24px;
+  }
+  
+  /* Estilo para íconos */
+  .zocoPopupContainer svg {
+    fill: #b4c400;
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Adaptabilidad */
+  @media (max-width: 768px) {
+    .zocoPopupContainer .zocoContainer span{
+      font-size: 13px;
+      
+    }
+    .zocoPopupContainer .zocoFontMedium {
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: -0.12px;
+    }
+    .zocoPopupContainer {
+      width: 95%;
+      padding: 15px;
+    }
+    .zocoPopupContainer .zocoActionButton {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  .zocoIcono{
+    width: 30;
+    height: 30;
+  }
+  @media (max-width: 400px){
+    .zocoPopupContainer .zocoContainer span{
+      font-size: 13px;
+      
+    }
+    .zocoPopupContainer .zocoFontMedium {
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: -0.12px;
+      }
+
+      .zocoPopupContainer .zocoFontXL {
+        font-size: 16px;
+      }
+      .zocoIcono{
+        width: 20;
+        height: 20;
+      }
+  }

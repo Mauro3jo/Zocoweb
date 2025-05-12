@@ -1,0 +1,129 @@
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\BLL\obj\Release\net6.0\BLL.csproj.AssemblyReference.cache
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\BLL\obj\Release\net6.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\BLL\obj\Release\net6.0\BLL.AssemblyInfoInputs.cache
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\BLL\obj\Release\net6.0\BLL.AssemblyInfo.cs
+C:\Users\JOSEC\Documents\GitHub\dash-completo\Aliados\BLL\obj\Release\net6.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\BLL\bin\Release\net6.0\BLL.deps.json
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\BLL\bin\Release\net6.0\BLL.dll
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\BLL\bin\Release\net6.0\BLL.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\BLL\bin\Release\net6.0\DAL.dll
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\BLL\bin\Release\net6.0\Entity.dll
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\BLL\bin\Release\net6.0\DAL.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\BLL\bin\Release\net6.0\Entity.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\BLL\obj\Release\net6.0\BLL.csproj.AssemblyReference.cache
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\BLL\obj\Release\net6.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\BLL\obj\Release\net6.0\BLL.AssemblyInfoInputs.cache
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\BLL\obj\Release\net6.0\BLL.AssemblyInfo.cs
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\BLL\obj\Release\net6.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\BLL\obj\Release\net6.0\BLL.csproj.CopyComplete
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\BLL\obj\Release\net6.0\BLL.dll
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\BLL\obj\Release\net6.0\refint\BLL.dll
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\BLL\obj\Release\net6.0\BLL.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-asesores-nuevo\Aliados\BLL\obj\Release\net6.0\ref\BLL.dll
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\BLL\bin\Release\net6.0\BLL.deps.json
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\BLL\bin\Release\net6.0\BLL.dll
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\BLL\bin\Release\net6.0\BLL.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\BLL\bin\Release\net6.0\DAL.dll
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\BLL\bin\Release\net6.0\Entity.dll
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\BLL\bin\Release\net6.0\DAL.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\BLL\bin\Release\net6.0\Entity.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\BLL\obj\Release\net6.0\BLL.csproj.AssemblyReference.cache
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\BLL\obj\Release\net6.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\BLL\obj\Release\net6.0\BLL.AssemblyInfoInputs.cache
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\BLL\obj\Release\net6.0\BLL.AssemblyInfo.cs
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\BLL\obj\Release\net6.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\BLL\obj\Release\net6.0\BLL.csproj.CopyComplete
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\BLL\obj\Release\net6.0\BLL.dll
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\BLL\obj\Release\net6.0\refint\BLL.dll
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\BLL\obj\Release\net6.0\BLL.pdb
+C:\Users\JOSEC\Documents\GitHub\panel-completo\Aliados\BLL\obj\Release\net6.0\ref\BLL.dll
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\BLL.deps.json
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\BLL.dll
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\BLL.pdb
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\DAL.dll
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\Entity.dll
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\DAL.pdb
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\Entity.pdb
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.csproj.AssemblyReference.cache
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.AssemblyInfoInputs.cache
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.AssemblyInfo.cs
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.dll
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\refint\BLL.dll
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.pdb
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\ref\BLL.dll
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.sourcelink.json
+C:\Users\JOSEC\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.csproj.Up2Date
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\BLL.deps.json
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\BLL.dll
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\BLL.pdb
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\DAL.dll
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\Entity.dll
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\DAL.pdb
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\Entity.pdb
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.csproj.AssemblyReference.cache
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.AssemblyInfoInputs.cache
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.AssemblyInfo.cs
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.sourcelink.json
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.csproj.CopyComplete
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.dll
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\refint\BLL.dll
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.pdb
+C:\Users\54381\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\ref\BLL.dll
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\BLL.deps.json
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\BLL.dll
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\BLL.pdb
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\DAL.dll
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\Entity.dll
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\DAL.pdb
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\Entity.pdb
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.csproj.AssemblyReference.cache
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.AssemblyInfoInputs.cache
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.AssemblyInfo.cs
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.sourcelink.json
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.csproj.CopyComplete
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.dll
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\refint\BLL.dll
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.pdb
+C:\Users\54381\Desktop\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\ref\BLL.dll
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\BLL.deps.json
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\BLL.dll
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\BLL.pdb
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\DAL.dll
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\Entity.dll
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\DAL.pdb
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\Entity.pdb
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.csproj.AssemblyReference.cache
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.AssemblyInfoInputs.cache
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.AssemblyInfo.cs
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.sourcelink.json
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.csproj.Up2Date
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.dll
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\refint\BLL.dll
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.pdb
+C:\Users\Zoco9\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\ref\BLL.dll
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\BLL.deps.json
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\BLL.dll
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\BLL.pdb
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\DAL.dll
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\Entity.dll
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\DAL.pdb
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\bin\Release\net6.0\Entity.pdb
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.csproj.AssemblyReference.cache
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.AssemblyInfoInputs.cache
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.AssemblyInfo.cs
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.sourcelink.json
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.csproj.Up2Date
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.dll
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\refint\BLL.dll
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\BLL.pdb
+C:\Users\Zoco IT\Documents\GitHub\repo-prueba-comentarios\Aliados\BLL\obj\Release\net6.0\ref\BLL.dll

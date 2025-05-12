@@ -1,0 +1,193 @@
+.bg-view-login {
+  background: transparent linear-gradient(134deg, #e5e8ee 0%, #d0d7e2 100%) 0%
+    0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.bg-login {
+  width: 450px;
+  height: 50%;
+  background: transparent linear-gradient(140deg, #ffffff 0%, #e5e8ee 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 5px 4px 16px #d0d7e2;
+  border-radius: 50px;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 500px) {
+  .bg-login {
+    width: 100%;
+    background: transparent linear-gradient(140deg, #ffffff 0%, #e5e8ee 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 30px;
+    opacity: 1;
+    padding: 2rem;
+  }
+}
+
+.input-transparente {
+  background-color: transparent !important;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: transparent !important;
+  outline: 0;
+  box-shadow: 0 0 0 0rem rgba(13, 109, 253, 0) !important;
+}
+
+.input-formulario-user {
+  width: 100% !important;
+  box-shadow: inset 5px 5px 10px #d0d7e2 !important;
+  border-radius: 28px !important;
+  opacity: 1 !important;
+  background-color: transparent !important;
+  padding: 0.5rem 1rem;
+}
+
+.input-formulario-pass {
+  width: 294px !important;
+  height: 52px !important;
+  box-shadow: inset 5px 5px 10px #d0d7e2 !important;
+  border-radius: 28px !important;
+  opacity: 1 !important;
+  background-color: transparent !important;
+  padding-left: 40px !important;
+}
+
+.btn-login {
+  width: 180px !important;
+  height: 40px !important;
+  background: #b4c400 0% 0% no-repeat padding-box !important;
+  border-radius: 19px !important;
+  opacity: 1 !important;
+  transition: all 0.6s;
+}
+
+.btn-login-disabled {
+  width: 180px !important;
+  height: 40px !important;
+  background: #d0d7e2 0% 0% no-repeat padding-box !important;
+  border-radius: 19px !important;
+  opacity: 1 !important;
+  transition: all 0.6s;
+}
+
+@media only screen and (max-width: 2600px) {
+  .btn-login {
+    width: 180px !important;
+    height: 46px !important;
+    background: #b4c400 0% 0% no-repeat padding-box !important;
+    border-radius: 19px !important;
+    opacity: 1 !important;
+    transition: all 0.6s;
+  }
+
+  .btn-login-disabled {
+    width: 180px !important;
+    height: 46px !important;
+    background: #d0d7e2 0% 0% no-repeat padding-box !important;
+    border-radius: 19px !important;
+    opacity: 1 !important;
+    transition: all 0.6s;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  .btn-login {
+    width: 180px !important;
+    height: 40px !important;
+    background: #b4c400 0% 0% no-repeat padding-box !important;
+    border-radius: 19px !important;
+    opacity: 1 !important;
+    transition: all 0.6s;
+  }
+
+  .btn-login-disabled {
+    width: 180px !important;
+    height: 40px !important;
+    background: #d0d7e2 0% 0% no-repeat padding-box !important;
+    border-radius: 19px !important;
+    opacity: 1 !important;
+    transition: all 0.6s;
+  }
+}
+
+.btn-login:hover {
+  background: #0c0c0c 0% 0% no-repeat padding-box !important;
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-icon-user {
+  position: absolute;
+  top: 44%;
+  transform: translateY(-62%) translateX(-1000%);
+  background: none !important;
+  border: none !important;
+  cursor: pointer;
+}
+
+.input-icon-pass {
+  position: absolute;
+  top: 50%;
+  transform: translateX(-1000%);
+  background: none !important;
+  border: none !important;
+  cursor: pointer;
+}
+
+.password-toggle-button {
+  position: absolute;
+  top: 49.8%;
+  transform: translateX(240%);
+  background: none !important;
+  border: none !important;
+  cursor: pointer;
+}
+
+.btn-link {
+  color: #000000 !important;
+}
+
+.btn-link:hover {
+  color: #000000 !important;
+}
+
+.btn-check:focus + .btn,
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 109, 253, 0) !important;
+}
+
+.centrado-label {
+  text-align: center !important;
+}
+
+.ocultar-div {
+  visibility: hidden !important;
+}
+
+.enlace {
+  color: #b4c400;
+
+  transition: all 0.6s;
+}
+
+.enlace:hover {
+  color: #0c0c0c;
+}
+
+.regresar {
+  color: #0c0c0c !important;
+  transition: all 0.6s;
+}
+.regresar:hover {
+  color: #b4c400 !important;
+}
+
+

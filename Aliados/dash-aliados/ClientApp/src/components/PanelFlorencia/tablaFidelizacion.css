@@ -1,0 +1,41 @@
+/* Encapsula los estilos dentro de una clase raíz específica */
+
+
+.tabla-fidelizacion table th,
+.tabla-fidelizacion table td {
+  min-width: 120px !important; /* Ancho mínimo para mantener contenido legible */
+  max-width: 200px !important; /* Evitar que las celdas se expandan demasiado */
+  word-wrap: break-word !important; /* Forzar la división de palabras largas */
+  overflow-wrap: break-word !important; /* Compatibilidad adicional */
+  white-space: normal !important; /* Permitir texto en múltiples líneas */
+  text-align: center !important; /* Centrar el contenido */
+  vertical-align: middle !important; /* Centrar verticalmente el contenido */
+  padding: 10px !important; /* Espaciado interno para claridad */
+  height: auto !important; /* Altura dinámica según el contenido */
+}
+
+/* Responsividad para dispositivos pequeños */
+@media screen and (max-width: 900px) {
+  .tabla-fidelizacion table th,
+  .tabla-fidelizacion table td {
+    min-width: 80px !important; /* Reducir el ancho mínimo */
+    max-width: 150px !important; /* Ajustar el ancho máximo */
+    font-size: 12px !important; /* Reducir el tamaño de fuente */
+  }
+}
+
+/* Forzar reglas adicionales para garantizar que se apliquen */
+.tabla-fidelizacion table {
+  table-layout: auto !important; /* Permitir que las columnas se ajusten al contenido */
+  width: 100% !important; /* Asegurar que la tabla ocupe todo el ancho disponible */
+}
+
+.tabla-fidelizacion table tr {
+  height: auto !important; /* Permitir que las filas se ajusten dinámicamente */
+}
+
+.tabla-fidelizacion table th,
+.tabla-fidelizacion table td {
+  box-sizing: border-box !important; /* Garantizar que el padding se respete correctamente */
+  overflow: visible !important; /* Evitar recortes de contenido */
+}

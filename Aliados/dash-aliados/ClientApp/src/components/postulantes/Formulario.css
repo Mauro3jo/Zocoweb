@@ -1,0 +1,166 @@
+﻿.custom-alert-popup {
+    border-radius: 24px !important;
+    padding: 2rem !important;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+  }
+  
+  .custom-confirm-button {
+    background-color: #B4C400 !important;
+    color: white !important;
+    border-radius: 32px !important;
+    padding: 10px 24px;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    margin-right: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .custom-cancel-button {
+    background-color: #3C435E !important;
+    color: white !important;
+    border-radius: 32px !important;
+    padding: 10px 24px;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  .swal2-icon {
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+  }
+/* Header Container */
+.header-container-zoco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+/* Logo */
+.logo-zoco {
+    width:140px;
+    height: auto;
+    display: block;
+    margin-right: 20px; /* Space between logo and vertical bar */
+}
+
+/* Vertical Bar */
+.bar-vertical-zoco {
+    height: 50px; /* Adjust height of the vertical bar */
+    width: 3px; /* Width of the vertical bar */
+    background-color: #424960; /* Color of the vertical bar */
+    margin-right: 20px; /* Space between vertical bar and title */
+}
+
+/* Title (h2) */
+h2.zoco-title {
+    font-size: 1.5rem; /* Adjust text size */
+    letter-spacing: 0.16px;
+    color: #424960;
+    opacity: 1;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    .header-container-zoco {
+        flex-direction: row; /* 🟢 Mantenemos el diseño horizontal */
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap; /* Opcional: permite que se acomode si no entra todo */
+    }
+
+    .logo-zoco {
+        width: 80px; /* o un tamaño que se vea bien en móviles */
+        margin-right: 12px;
+        margin-bottom: 0; /* Quitamos margen vertical */
+    }
+
+    .bar-vertical-zoco {
+        height: 50px; /* 🟢 Mantenemos la barra vertical */
+        width: 3px;
+        background-color: #424960;
+        margin-right: 12px;
+        margin-bottom: 0; /* Evitamos que se haga espacio abajo innecesario */
+    }
+
+    h2.zoco-title {
+        font-size: 1.2rem; /* Quizás un pelín más chico en mobile */
+        margin: 0;
+    }
+}
+
+/* Contenedor principal centrado con márgenes */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%; /* Ocupa el 90% del ancho disponible */
+    height: 90vh; /* Ocupa el 90% de la altura de la pantalla */
+    margin: 0 auto; /* Centramos el contenedor */
+    padding: 20px; /* Margen alrededor */
+    box-sizing: border-box;
+}
+
+/* Header Container (logo, barra y título) */
+.header-container-zoco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px; /* Espacio entre el logo y la carta */
+}
+
+.logo-zoco {
+    width: 80px;
+    height: auto;
+    margin-right: 20px; /* Espacio entre el logo y la barra */
+}
+
+.bar-vertical-zoco {
+    height: 50px;
+    width: 3px;
+    background-color: #424960;
+    margin-right: 20px; /* Espacio entre la barra y el título */
+}
+
+.zoco-title {
+    font-size: 1.5rem;
+    letter-spacing: 0.16px;
+    color: #424960;
+    text-align: center;
+}
+
+/* Estilo de la carta (formulario) */
+.card-form {
+    background: transparent linear-gradient(131deg, #FFFFFF 26%, #EEF1F4 71%) 0% 0% no-repeat padding-box;
+    box-shadow: 12px 12px 18px #1D5DAA3B;
+    border-radius: 49px;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px; /* Tamaño máximo de la carta */
+    height: auto;
+    box-sizing: border-box;
+}
+
+/* Responsividad para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .main-container {
+        width: 100%; /* Se ajusta al 100% del ancho disponible */
+        height: auto; /* Ajuste de altura */
+        padding: 15px;
+    }
+
+    .card-form {
+        width: 100%; /* Se ajusta al 100% del ancho disponible */
+        padding: 15px;
+    }
+}

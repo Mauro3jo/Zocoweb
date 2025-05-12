@@ -1,0 +1,28 @@
+@media print {
+    .row {
+        visibility: hidden; /* Oculta todo excepto el contenido del modal */
+    }
+
+    .modal-body {
+        visibility: visible; /* Asegura que solo el modal-body sea visible */
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        overflow: visible;
+        height: auto;
+    }
+
+    .modal-header,
+    .modal-footer {
+        display: none; /* Oculta el header y footer del modal */
+    }
+
+    .modal-content {
+        border: none; /* Elimina bordes innecesarios */
+    }
+
+    @page {
+        size: A4; /* Define el tamaño del papel como A4 */
+        margin: 1cm; /* Define márgenes alrededor del contenido */
+    }
+}

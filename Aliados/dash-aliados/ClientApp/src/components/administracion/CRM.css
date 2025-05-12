@@ -1,0 +1,42 @@
+﻿.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.custom-card {
+    width: 250px;
+    height: 250px;
+    transform: rotate(45deg);
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: none; /* Remove the border */
+}
+
+.custom-card-body {
+    transform: rotate(-45deg);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px; /* Adjust padding as needed */
+}
+.badge {
+    padding: 8px 12px;
+    font-size: 12px;
+    border-radius: 20px;
+    background-color: #007bff;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+  }
+  .badge span {
+    margin-left: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+

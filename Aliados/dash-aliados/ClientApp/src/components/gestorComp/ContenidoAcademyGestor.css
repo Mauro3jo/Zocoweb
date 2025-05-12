@@ -1,0 +1,45 @@
+.acordeon-academy {
+    background: #e5e8ee 0% 0% no-repeat padding-box !important;
+    border-radius: 30px !important;
+    opacity: 0.9 !important;
+  }
+  
+  .acordeon-academy-dark {
+    background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0% 0%
+      no-repeat padding-box;
+    box-shadow: 5px 4px 16px #0c0c0c !important;
+    border-radius: 30px !important;
+    opacity: 0.9 !important;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color: #fff !important;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+  }
+  
+  .accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    background-color: #fff !important;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+      border-radius 0.15s ease;
+  }
+  
+  .accordion-button:focus {
+    z-index: 3 !important;
+    background-color: #fff !important;
+    outline: 0 !important;
+    box-shadow: 0 0 0 0.25rem rgba(180, 190, 0, 0.25) !important;
+  }
+  

@@ -1,0 +1,83 @@
+﻿/* Contenedor general */
+.contenido-cupones-aliados-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* "Carta" blanca del form */
+.contenido-cupones-aliados-card {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Layout en grid para alinear inputs */
+.contenido-cupones-aliados-form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem 2rem;
+    align-items: end;
+}
+
+/* Inputs y botón redondeados */
+.form-control,
+.contenido-cupones-aliados-btn {
+    border-radius: 0.5rem !important;
+    height: 38px;
+}
+
+/* Botón más pequeño */
+.contenido-cupones-aliados-btn {
+    background-color: #B3C300 !important;
+    border: none !important;
+    color: white !important;
+    font-weight: bold;
+    width: 50%;
+    justify-self: start;
+}
+
+    /* Botón hover */
+    .contenido-cupones-aliados-btn:hover {
+        background-color: #9daa00 !important;
+    }
+
+/* Tabla tamaño completo */
+.contenido-cupones-aliados-tabla {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+    /* Redondear solo primer y último th */
+    .contenido-cupones-aliados-tabla thead th:first-child {
+        border-top-left-radius: 0.5rem !important;
+    }
+
+    .contenido-cupones-aliados-tabla thead th:last-child {
+        border-top-right-radius: 0.5rem !important;
+    }
+
+/* Responsive mobile */
+@media (max-width: 768px) {
+    .contenido-cupones-aliados-form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contenido-cupones-aliados-btn {
+        width: 100%;
+    }
+
+    .contenido-cupones-aliados-card {
+        padding: 1rem;
+        border-radius: 0;
+    }
+
+    .contenido-cupones-aliados-container {
+        padding: 0;
+    }
+
+    .contenido-cupones-aliados-tabla {
+        padding: 0 1rem;
+    }
+}

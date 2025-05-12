@@ -1,0 +1,290 @@
+
+
+.inputs-selector-cuadro-comparativo {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  width: 248px !important;
+  height: 44px !important;
+  border-radius: 50px !important;
+  opacity: 1 !important;
+}
+
+.inputs-selector-cuadro-comparativo {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  width: 248px !important;
+  height: 44px !important;
+  border-radius: 50px !important;
+  opacity: 1 !important;
+  border: none; /* Añade esto si quieres quitar el borde */
+  /* Color de fondo y flecha, asegúrate de tener la ruta correcta a tu imagen */
+  background: #b4c400 url('../../assets/svg/flechadropdown.svg') no-repeat right 10px center / 12px 12px;
+  color: #000; /* Cambia el color del texto según tu preferencia */
+  padding-right: 30px; /* Ajusta el padding para no sobreponer el texto a la imagen */
+}
+
+/* Media queries para ajustes responsivos */
+@media only screen and (max-width: 900px) {
+  .inputs-selector-cuadro-comparativo {
+    width: 100% !important; /* Ajusta ancho para dispositivos más pequeños */
+    /* Mantén el color de fondo y la imagen de la flecha */
+    background: #b4c400 url('../../assets/svg/flechadropdown.svg') no-repeat right 10px center / 12px 12px;
+  }
+}
+/* Asegúrate de ajustar el color de texto para una buena visibilidad */
+.inputs-selector-cuadro-comparativo {
+  color: #000; /* Cambia el color del texto según tu preferencia */
+}
+
+@media only screen and (max-width: 900px) {
+  .inputs-cuadro-comparativo {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+    width: 100% !important;
+    height: 44px !important;
+    background: #dde1e8 0% 0% no-repeat padding-box !important;
+    box-shadow: inset 16px 11px 20px #d0d7e2 !important;
+    border-radius: 50px !important;
+    opacity: 1 !important;
+  }
+}
+
+.label-buscador-comparativa {
+  width: 200px !important;
+  height: 44px !important;
+  background: #dde1e8 0% 0% no-repeat padding-box !important;
+  box-shadow: inset 16px 11px 20px #d0d7e2 !important;
+  color: #000000;
+  border-radius: 50px !important;
+  opacity: 1 !important;
+  text-align: center;
+}
+
+.label-buscador-comparativa-dark {
+  width: 200px !important;
+  height: 44px !important;
+  background-color: #212121 !important;
+  box-shadow: inset 5px 4px 15px #16181a !important;
+  color: #fff;
+  border-radius: 50px !important;
+  opacity: 1 !important;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1300px) {
+  .label-buscador-comparativa {
+    width: 200px !important;
+    height: 44px !important;
+    background: #dde1e8 0% 0% no-repeat padding-box !important;
+    box-shadow: inset 16px 11px 20px #d0d7e2 !important;
+    color: #000000;
+    border-radius: 50px !important;
+    opacity: 1 !important;
+    text-align: center;
+  }
+
+  .label-buscador-comparativa-dark {
+    width: 200px !important;
+    height: 44px !important;
+    background-color: #212121 !important;
+    box-shadow: inset 5px 4px 15px #16181a !important;
+    color: #fff;
+    border-radius: 50px !important;
+    opacity: 1 !important;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .label-buscador-comparativa {
+    width: 100% !important;
+    height: 44px !important;
+    background: #dde1e8 0% 0% no-repeat padding-box !important;
+    box-shadow: inset 16px 11px 20px #d0d7e2 !important;
+    color: #000000;
+    border-radius: 50px !important;
+    opacity: 1 !important;
+    text-align: center;
+  }
+
+  .label-buscador-comparativa-dark {
+    width: 100% !important;
+    height: 44px !important;
+    background-color: #212121 !important;
+    box-shadow: inset 5px 4px 15px #16181a !important;
+    color: #fff;
+    border-radius: 50px !important;
+    opacity: 1 !important;
+    text-align: center;
+  }
+}
+
+.bg-cuadro-comparador-escritorio {
+  width: 600px !important;
+  height: 100%!important;
+  background: transparent linear-gradient(145deg, #ffffff 0%, #e5e8ee 100%) 0%
+    0% no-repeat padding-box !important;
+  box-shadow: 5px 4px 16px #d0d7e2 !important;
+  border-radius: 50px !important;
+  opacity: 1 !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .bg-cuadro-comparador-escritorio {
+    width: 100% !important;
+    height: 100% !important;
+    background: transparent linear-gradient(145deg, #ffffff 0%, #e5e8ee 100%) 0%
+      0% no-repeat padding-box !important;
+    box-shadow: 5px 4px 16px #d0d7e2 !important;
+    border-radius: 50px !important;
+    opacity: 1 !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .bg-cuadro-comparador-escritorio {
+    width: 100% !important;
+    height: 100% !important;
+    background: transparent linear-gradient(145deg, #ffffff 0%, #e5e8ee 100%) 0%
+      0% no-repeat padding-box !important;
+    box-shadow: 5px 4px 16px #d0d7e2 !important;
+    border-radius: 50px !important;
+    opacity: 1 !important;
+  }
+}
+
+.bg-cuadro-comparador-escritorio-dark {
+  width: 600px !important;
+  height: 100%!important;
+  background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0% 0%
+  no-repeat padding-box !important;
+box-shadow: 5px 4px 16px #0c0c0c !important;
+  border-radius: 50px !important;
+  opacity: 1 !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .bg-cuadro-comparador-escritorio-dark {
+    width: 100% !important;
+    height: 100% !important;
+    background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0% 0%
+    no-repeat padding-box !important;
+  box-shadow: 5px 4px 16px #0c0c0c !important;
+    border-radius: 50px !important;
+    opacity: 1 !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .bg-cuadro-comparador-escritorio-dark {
+    width: 100% !important;
+    height: 100% !important;
+    background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0% 0%
+    no-repeat padding-box !important;
+  box-shadow: 5px 4px 16px #0c0c0c !important;
+    border-radius: 50px !important;
+    opacity: 1 !important;
+  }
+}
+
+.fila-divisoria tr {
+  border-bottom: 1px solid #dee2e6; /* Usa el color que mejor se adapte a tu diseño */
+}
+
+.fila-divisoria-dark tr{
+   border-bottom: 1px solid rgba(249, 247, 247, 0) /* Usa el color que mejor se adapte a tu diseño */
+}
+
+.pill-1 {
+  width: 100% !important;
+  height: 101px !important;
+  /* UI Properties */
+  background: transparent linear-gradient(103deg, #ffffff 0%, #e5e8ee 100%) 0%
+    0% no-repeat padding-box !important;
+  box-shadow: 5px 4px 16px #d0d7e2 !important;
+  border-radius: 50px !important;
+  opacity: 1 !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .pill-1 {
+    width: 100% !important;
+    height: 101px !important;
+    /* UI Properties */
+    background: transparent linear-gradient(103deg, #ffffff 0%, #e5e8ee 100%) 0%
+      0% no-repeat padding-box !important;
+    box-shadow: 5px 4px 16px #d0d7e2 !important;
+    border-radius: 50px !important;
+    opacity: 1 !important;
+  }
+}
+
+.pill-1-modo-oscuro {
+  width: 100% !important;
+  height: 101px !important;
+  /* UI Properties */
+  background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0% 0%
+  no-repeat padding-box !important;
+box-shadow: 5px 4px 16px #0c0c0c !important;
+  border-radius: 50px !important;
+  opacity: 1 !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .pill-1-modo-oscuro  {
+    width: 100% !important;
+    height: 101px !important;
+    /* UI Properties */
+    background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0% 0%
+    no-repeat padding-box !important;
+  box-shadow: 5px 4px 16px #0c0c0c !important;
+    border-radius: 50px !important;
+    opacity: 1 !important;
+  }
+}
+
+.borde-caja-panel-2 {
+  height: 100px !important; /* Altura de la línea, ajusta según necesites */
+  width: 2px !important; /* Ancho de la línea */
+  background-color: #0000002c !important; /* Color de la línea */
+}
+
+.borde-caja-panel-1 {
+  height: 50px !important; /* Altura de la línea, ajusta según necesites */
+  width: 2px !important; /* Ancho de la línea */
+  background-color: #0000002c !important; /* Color de la línea */
+}
+
+.contenedor-panel-control-asesores-2 {
+  width: 450px !important;
+  height: 100% !important;
+  background: transparent linear-gradient(97deg, #ffffff 0%, #e5e8ee 100%) 0% 0%
+    no-repeat padding-box !important;
+  box-shadow: 5px 4px 16px #d0d7e2 !important;
+  border-radius: 50px !important;
+  opacity: 1;
+  color: #000000 !important;
+}
+
+.contenedor-panel-control-asesores-modo-oscuro{
+  width: 450px !important;
+ 
+  background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 5px 4px 16px #0c0c0c !important;
+  border-radius: 50px !important;
+  opacity: 1;
+  color: #fff !important;
+}
+
+
+.w-33{
+  width: 33% !important;
+}
+
+.w-34{
+ width: 34% !important;
+}

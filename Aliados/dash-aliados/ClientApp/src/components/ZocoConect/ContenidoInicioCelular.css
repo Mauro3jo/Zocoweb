@@ -1,0 +1,1973 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+ .zocoTextCenterInicio{
+  font-family: 'Montserrat', sans-serif;
+}
+.zocoFontXS{
+  font-size: 10px;
+}
+ .zocoFontSmall {
+  font-size: 12px;
+}
+
+ .zocoFontMedium {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.12px;
+}
+
+.zocoFontLarge {
+  font-size: 18px;
+}
+
+.zocoFontXL {
+  font-size: 20px;
+}
+.zocoFontXLBold button{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.zocoFontXXL {
+  font-size: 24px;
+}
+.zocoFont12 {
+  font-size: 12px;
+  color: #000000;
+  font-weight: 400;
+}
+.bg-connect-celular {
+    width: 100%;
+    background: transparent linear-gradient(154deg, #ffffff 0%, #e5e8ee 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 30px;
+    opacity: 1;
+  }
+  
+  .bg-connect-celular-dark {
+    width: 100%;
+    background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0% 0%
+      no-repeat padding-box;
+    box-shadow: 5px 4px 16px #0c0c0c !important;
+    border-radius: 30px;
+    opacity: 1;
+  }
+  .btn-nivel-responsive {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: linear-gradient(300deg, #FFFFFF 15%, #F9FBFC 35%, #EBEFF4 59%, #EAEFF4 60%);
+    box-shadow: 6px 6px 9px #346DBF36;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+.titulo-medio{
+  display: flex;
+}
+.titulo-pequeño{
+  display: flex;
+}
+
+
+/* archivo: ContenidoInicio.css */
+
+  .legends{
+    margin-left: 8em;
+  }
+  .bg-data-title-cel {
+    width:auto;
+    height: auto;
+    margin-right:1em;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(135deg, #ffffff 0%, #ffffff 100%) 0%
+    0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 15px;
+    opacity: 1;
+    color: #000000 !important;
+    white-space: nowrap;
+  }
+  .bg-data-title-cel-dark{
+    width: auto;
+    height: auto;
+    background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0% 0%
+      no-repeat padding-box;
+    box-shadow: 5px 4px 16px #0c0c0c !important;
+    border-radius: 50px;
+    opacity: 1;
+    color: #fbfbfb !important;
+  
+  }
+   .btn-nivel-responsive:disabled {
+    opacity: 1 !important; /* Evita que se vean apagados */
+    pointer-events: none !important; /* Evita la interacción sin cambiar el estilo */
+    filter: none !important; /* Elimina cualquier desaturación */
+  }
+  .comision-cel{
+    margin-top: 6em!important;
+    margin-right: 3em !important;
+    display: flex;
+    align-items: center;
+  }
+@media only screen and (max-width: 1250px) {
+    .contenedor-panel-control-facturacion {
+      width: 100% !important;
+      height: 100% !important;
+      background: transparent linear-gradient(97deg, #ffffff 0%, #e5e8ee 100%) 0%
+        0% no-repeat padding-box !important;
+      box-shadow: 5px 4px 16px #d0d7e2 !important;
+      border-radius: 30px !important;
+      opacity: 1;
+    }
+    .btn-referir-2{
+      display: none;
+    }
+    .select-2{
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 1440px) {
+    .contenedor-panel-control-facturacion {
+      width: 100% !important;
+      height: 100% !important;
+      background: transparent linear-gradient(97deg, #ffffff 0%, #e5e8ee 100%) 0%
+        0% no-repeat padding-box !important;
+      box-shadow: 5px 4px 16px #d0d7e2 !important;
+      border-radius: 30px !important;
+      opacity: 1;
+    }
+    .titulo-pequeño{
+      display: none !important;
+    }
+    .btn-referir-2{
+      display: none;
+    }
+    .select-2{
+      display: none;
+    }
+  }
+  
+  /* @media only screen and (max-width: 768px) {
+    .contenedor-panel-control-asesores {
+      width: 100% !important;
+  
+      background: transparent linear-gradient(97deg, #ffffff 0%, #e5e8ee 100%) 0%
+        0% no-repeat padding-box !important;
+      box-shadow: 5px 4px 16px #d0d7e2 !important;
+      border-radius: 30px !important;
+      opacity: 1;
+    }
+  } */
+  
+  @media only screen and (max-width: 500px) {
+    .contenedor-panel-control-facturacion {
+      width: 100% !important;
+      height: 360px;
+      background: transparent linear-gradient(97deg, #ffffff 0%, #e5e8ee 100%) 0%
+        0% no-repeat padding-box !important;
+      box-shadow: 5px 4px 16px #d0d7e2 !important;
+      border-radius: 30px !important;
+      opacity: 1;
+    }
+  }
+  
+  @media only screen and (max-width: 340px) {
+    .contenedor-panel-control-facturacion {
+      width: 100% !important;
+      height: 340px;
+      background: transparent linear-gradient(97deg, #ffffff 0%, #e5e8ee 100%) 0%
+        0% no-repeat padding-box !important;
+      box-shadow: 5px 4px 16px #d0d7e2 !important;
+      border-radius: 30px !important;
+      opacity: 1;
+    }
+  }
+  
+  .contenedor-panel-control-header-dark {
+    width: 100% !important;
+    height: auto;
+    background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0% 0%
+      no-repeat padding-box;
+    box-shadow: 5px 4px 16px #0c0c0c !important;
+    border-radius: 50px !important;
+    opacity: 1;
+  }
+  
+  @media only screen and (max-width: 1250px) {
+    .contenedor-panel-control-facturacion-dark {
+      width: 100% !important;
+      height: 100% !important;
+      background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0%
+        0% no-repeat padding-box;
+      box-shadow: 5px 4px 16px #0c0c0c !important;
+      border-radius: 30px !important;
+      opacity: 1;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .contenedor-panel-control-facturacion-dark {
+      width: 100% !important;
+      background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0%
+        0% no-repeat padding-box !important;
+      box-shadow: 5px 4px 16px #0c0c0c !important;
+      border-radius: 30px !important;
+      opacity: 1;
+    }
+    
+  }
+  @media only screen and (max-width: 767px){
+   .bar-inicio{
+    display: none;
+   }
+   .level-progress-cel{
+    display: none  !important;
+   }
+   .btn-referir-2{
+    margin-top: 1.7em !important;
+    display: flex !important;
+    font-size: 12px !important;
+    height: 50px !important;
+  }
+  }
+  @media only screen and (max-width: 768px){
+    .titulo-pequeño{
+      display: none !important;
+    }
+    .buttons1{
+      display: none !important;
+    }
+
+    .bg-connect-celular .btn-nivel-responsive {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background: linear-gradient(300deg, #FFFFFF 15%, #F9FBFC 35%, #EBEFF4 59%, #EAEFF4 60%);
+      box-shadow: 6px 6px 9px #346DBF36;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+  }
+    .zocoFontXS{
+      font-size: 10px;
+    }
+     .zocoFontSmall {
+      font-size: 10px;
+    }
+    
+     .zocoFontMedium {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: -0.12px;
+    }
+    
+    .zocoFontLarge {
+      font-size: 14px;
+    }
+    
+    .zocoFontXL {
+      font-size: 16px;
+    }
+    .zocoFontXLBold button{
+      font-size: 16px;
+      font-weight: 700;
+    }
+    
+    .zocoFontXXL {
+      font-size: 20px;
+    }
+    .container .bg-connect-celular .comision-cel{
+      margin-top: 2em!important;
+      margin-right: 3em !important;
+      display: flex;
+      align-items: center;
+    }
+    .bar-inicio{
+      width: 505px;
+      /*width:100em*/
+      margin-bottom: 30px;
+      margin-left: 2em;
+     }
+     .level-progress-cel {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      width: 565px;
+      margin-bottom: 30px;
+      margin-left: 1em;
+      position: relative;
+  }
+  
+  .level-progress-cel span {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: auto; /* Ajuste del ancho */
+      text-align: center;
+  }
+  .bg-data-estatus{
+    width:auto;
+    height: auto;
+    margin-right:1em;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(135deg, #ffffff 0%, #ffffff 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 15px;
+    opacity: 1;
+    color: #000000 !important;
+    white-space: nowrap;
+  }
+  .bg-data-title {
+    width:auto;
+    height: auto;
+    padding: 10px;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(99deg, #FFFFFF 21%, #EAEFF4 89%) 0% 0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 25px;
+    opacity: 1;
+    color: #6E7A8E !important;
+  }
+  .btn-referir-2{
+    margin-top: 1.7em !important;
+    display: flex !important;
+    font-size: 12px !important;
+    height: 50px !important;
+  }
+  /* .comision-cel .btn-referir-2{
+      margin-top: 2.8em !important;
+      display: flex !important;
+      font-size: 12px !important;
+      height: 50px !important;
+    
+  } */
+  }
+   @media only screen and (max-width: 830px){
+    .titulo-pequeño{
+      display: none !important;
+    }
+    .buttons1{
+      display: none !important;
+    }
+    .bg-connect-celular .btn-nivel-responsive {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background: linear-gradient(300deg, #FFFFFF 15%, #F9FBFC 35%, #EBEFF4 59%, #EAEFF4 60%);
+      box-shadow: 6px 6px 9px #346DBF36;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+  }
+    .zocoFontXS{
+      font-size: 10px;
+    }
+     .zocoFontSmall {
+      font-size: 12px;
+    }
+    
+     .zocoFontMedium {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: -0.12px;
+    }
+    
+    .zocoFontLarge {
+      font-size: 14px;
+    }
+    
+    .zocoFontXL {
+      font-size: 16px;
+    }
+    .zocoFontXLBold button{
+      font-size: 16px;
+      font-weight: 700;
+    }
+    
+    .zocoFontXXL {
+      font-size: 20px;
+    }
+     .container .bg-connect-celular .comision-cel{
+      margin-top: 2.8em !important;
+      margin-right: 3em !important;
+      display: flex;
+      align-items: center;
+    }
+    .bar-inicio{
+      width: 505px !important;
+      /*width:100em*/
+      margin-bottom: 30px;
+      margin-left: 2em;
+     }
+     .level-progress-cel {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      width: 565px !important;
+      margin-bottom: 30px;
+      margin-left: 1em;
+      position: relative;
+  }
+  
+  .level-progress-cel span {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: auto; /* Ajuste del ancho */
+      text-align: center;
+  }
+  .bg-data-estatus{
+    width:auto;
+    height: auto;
+    margin-right:1em;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(135deg, #ffffff 0%, #ffffff 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 15px;
+    opacity: 1;
+    color: #000000 !important;
+    white-space: nowrap;
+  }
+  .bg-data-title {
+    width:auto;
+    height: auto;
+    padding: 10px;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(99deg, #FFFFFF 21%, #EAEFF4 89%) 0% 0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 25px;
+    opacity: 1;
+    color: #6E7A8E !important;
+  }
+  .titulo-mes-cel{
+    display: flex !important;
+  }
+  .select-cel-mes{
+    display: flex !important;
+  }
+  .btn-referir-2{
+    margin-top: 1.7em !important;
+    display: flex !important;
+    font-size: 12px !important;
+    height: 50px !important;
+  }
+ 
+  }
+  @media only screen and (max-width: 930px){
+    .titulo-pequeño{
+      display: none !important;
+    }
+    .buttons1{
+      display: none !important;
+    }
+    .bg-connect-celular .btn-nivel-responsive {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background: linear-gradient(300deg, #FFFFFF 15%, #F9FBFC 35%, #EBEFF4 59%, #EAEFF4 60%);
+      box-shadow: 6px 6px 9px #346DBF36;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+  }
+    .zocoFontXS{
+      font-size: 10px;
+    }
+     .zocoFontSmall {
+      font-size: 10px;
+    }
+    
+     .zocoFontMedium {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: -0.12px;
+    }
+    
+    .zocoFontLarge {
+      font-size: 14px;
+    }
+    
+    .zocoFontXL {
+      font-size: 16px;
+    }
+    .zocoFontXLBold button{
+      font-size: 16px;
+      font-weight: 700;
+    }
+    
+    .zocoFontXXL {
+      font-size: 20px;
+    }
+    .container .bg-connect-celular .comision{
+      margin-top: 3.2em!important;
+      margin-right: 3em !important;
+      display: flex;
+      align-items: center;
+    }
+    .bar-inicio{
+      width: 505px !important;
+      /*width:100em*/
+      margin-bottom: 30px;
+      margin-left: 2em;
+     }
+     .level-progress-cel {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      width: 565px !important;
+      margin-bottom: 30px;
+      margin-left: 1em;
+      position: relative;
+  }
+  
+  .level-progress-cel span {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: auto; /* Ajuste del ancho */
+      text-align: center;
+  }
+  .bg-data-estatus{
+    width:auto;
+    height: auto;
+    margin-right:1em;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(135deg, #ffffff 0%, #ffffff 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 15px;
+    opacity: 1;
+    color: #000000 !important;
+    white-space: nowrap;
+  }
+  .bg-data-title {
+    width:auto;
+    height: auto;
+    padding: 10px;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(99deg, #FFFFFF 21%, #EAEFF4 89%) 0% 0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 25px;
+    opacity: 1;
+    color: #6E7A8E !important;
+  }
+  .titulo-mes-cel{
+    display: flex !important;
+  }
+  .select-cel-mes{
+    display: flex !important;
+  }
+  .select-cel-mes .btn-referir-2{
+    margin-top: 1.7em !important;
+    display: flex !important;
+    font-size: 12px !important;
+    height: 50px !important;
+  }
+ 
+  }
+
+  @media only screen and (max-width: 990px){
+    .titulo-pequeño{
+      display: none !important;
+    }
+    .buttons1{
+      display: none !important;
+    }
+    .titulo-mes-cel{
+      display: flex !important;
+    }
+    .select-cel-mes{
+      display: flex !important;
+    }
+    .select-cel-mes .btn-referir-2{
+      margin-top: 1.7em !important;
+      display: flex !important;
+      font-size: 12px !important;
+      height: 50px !important;
+    }
+    .bg-connect-celular .btn-nivel-responsive {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background: linear-gradient(300deg, #FFFFFF 15%, #F9FBFC 35%, #EBEFF4 59%, #EAEFF4 60%);
+      box-shadow: 6px 6px 9px #346DBF36;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+  }
+    .zocoFontXS{
+      font-size: 10px;
+    }
+     .zocoFontSmall {
+      font-size: 12px;
+    }
+    
+     .zocoFontMedium {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: -0.12px;
+    }
+    
+    .zocoFontLarge {
+      font-size: 14px;
+    }
+    
+    .zocoFontXL {
+      font-size: 16px;
+    }
+    .zocoFontXLBold button{
+      font-size: 16px;
+      font-weight: 700;
+    }
+    
+    .zocoFontXXL {
+      font-size: 20px;
+    }
+    .container .bg-connect-celular .comision-cel{
+      margin-top: 4em!important;
+      margin-right: 3em !important;
+      display: flex;
+      align-items: center;
+    }
+    .bar-inicio{
+      width: 505px !important;
+      /*width:100em*/
+      margin-bottom: 30px;
+      margin-left: 2em;
+     }
+     .level-progress-cel {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      width: 565px !important;
+      margin-bottom: 30px;
+      margin-left: 1em;
+      position: relative;
+  }
+  
+  .level-progress-cel span {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: auto; /* Ajuste del ancho */
+      text-align: center;
+  }
+  .bg-data-estatus{
+    width:auto;
+    height: auto;
+    margin-right:1em;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(135deg, #ffffff 0%, #ffffff 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 15px;
+    opacity: 1;
+    color: #000000 !important;
+    white-space: nowrap;
+  }
+  .bg-data-title {
+    width:auto;
+    height: auto;
+    padding: 10px;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(99deg, #FFFFFF 21%, #EAEFF4 89%) 0% 0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 25px;
+    opacity: 1;
+    color: #6E7A8E !important;
+  }
+  }
+  @media only screen and (max-width: 1000px){
+    .titulo-pequeño{
+      display: none !important;
+    }
+    /* .buttons1{
+      display: none !important;
+    } */
+    .titulo-mes-cel{
+      display: none !important;
+    }
+    .btn-referir-2{
+      display: none !important;
+    }
+    .bg-connect-celular .btn-nivel-responsive {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background: linear-gradient(300deg, #FFFFFF 15%, #F9FBFC 35%, #EBEFF4 59%, #EAEFF4 60%);
+      box-shadow: 6px 6px 9px #346DBF36;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+  }
+    .zocoFontXS{
+      font-size: 10px;
+    }
+     .zocoFontSmall {
+      font-size: 12px;
+    }
+    
+     .zocoFontMedium {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: -0.12px;
+    }
+    
+    .zocoFontLarge {
+      font-size: 14px;
+    }
+    
+    .zocoFontXL {
+      font-size: 16px;
+    }
+    .zocoFontXLBold button{
+      font-size: 16px;
+      font-weight: 700;
+    }
+    
+    .zocoFontXXL {
+      font-size: 20px;
+    }
+    .container .bg-connect-celular .comision-cel{
+      margin-top: 4em!important;
+      margin-right: 3em !important;
+      display: flex;
+      align-items: center;
+    }
+    .bar-inicio{
+      width: 505px !important;
+      /*width:100em*/
+      margin-bottom: 30px;
+      margin-left: 3em ;
+     }
+     .level-progress-cel {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      width: 565px !important;
+      margin-bottom: 30px;
+      margin-left: 1em;
+      position: relative;
+  }
+  
+  .level-progress-cel span {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: auto; /* Ajuste del ancho */
+      text-align: center;
+  }
+  .bg-data-estatus{
+    width:auto;
+    height: auto;
+    margin-right:1em;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(135deg, #ffffff 0%, #ffffff 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 15px;
+    opacity: 1;
+    color: #000000 !important;
+    white-space: nowrap;
+  }
+  .bg-data-title {
+    width:auto;
+    height: auto;
+    padding: 10px;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(99deg, #FFFFFF 21%, #EAEFF4 89%) 0% 0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 25px;
+    opacity: 1;
+    color: #6E7A8E !important;
+  }
+  }
+  @media only screen and (max-width: 1025px){
+    .titulo-pequeño{
+      display: none !important;
+    }
+    .btn-referir-2{
+      display: none !important;
+    }
+    .select-cel-mes{
+      display: none;
+    }
+    .titulo-mes-cel{
+      display: none !important;
+    }
+
+    .bg-connect-celular .btn-nivel-responsive {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background: linear-gradient(300deg, #FFFFFF 15%, #F9FBFC 35%, #EBEFF4 59%, #EAEFF4 60%);
+      box-shadow: 6px 6px 9px #346DBF36;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+  }
+    .zocoFontXS{
+      font-size:10px;
+    }
+     .zocoFontSmall {
+      font-size: 12px;
+    }
+    
+     .zocoFontMedium {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: -0.12px;
+    }
+    
+    .zocoFontLarge {
+      font-size: 14px;
+    }
+    
+    .zocoFontXL {
+      font-size: 16px;
+    }
+    .zocoFontXLBold button{
+      font-size: 16px;
+      font-weight: 700;
+    }
+    
+    .zocoFontXXL {
+      font-size: 20px;
+    }
+    .container .bg-connect-celular .comision-cel{
+      margin-top: 3.5em!important;
+      margin-right: 3em !important;
+      display: flex;
+      align-items: center;
+    }
+    .bar-inicio{
+      width: 735px;
+      /*width:100em*/
+      margin-bottom: 30px;
+      margin-left: 4em;
+     }
+     .bg-connect-celular .level-progress-cel {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      width: 805px;
+      margin-bottom: 30px;
+      margin-left: 4em;
+      position: relative;
+  }
+  
+  .level-progress-cel span {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: auto; /* Ajuste del ancho */
+      text-align: center;
+  }
+  .bg-data-estatus{
+    width:auto;
+    height: auto;
+    margin-right:1em;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(135deg, #ffffff 0%, #ffffff 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 15px;
+    opacity: 1;
+    color: #000000 !important;
+    white-space: nowrap;
+  }
+  .bg-data-title-cel {
+    width:auto;
+    height: auto;
+    padding: 10px;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(99deg, #FFFFFF 21%, #EAEFF4 89%) 0% 0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 25px;
+    opacity: 1;
+    color: #6E7A8E !important;
+  }
+  }
+  @media only screen and (max-width: 550px){
+    .titulo-medio{
+      display: none !important;
+    }
+    .titulo-pequeño{
+      display: flex !important;
+    }
+    .zocoFontXS{
+      font-size: 10px;
+    }
+     .zocoFontSmall {
+      font-size: 10px;
+    }
+    
+     .zocoFontMedium {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: -0.12px;
+    }
+    
+    .zocoFontLarge {
+      font-size: 14px;
+    }
+    
+    .zocoFontXL {
+      font-size: 16px;
+    }
+    .zocoFontXLBold button{
+      font-size: 16px;
+      font-weight: 700;
+    }
+    
+    .zocoFontXXL {
+      font-size: 18px;
+    }
+    .container .bg-connect-celular .comision-cel{
+      margin-top: 1em!important;
+      margin-right: 3em !important;
+      display: flex;
+      align-items: center;
+    }
+    .bar-inicio{
+      display: none;
+     }
+     .level-progress-cel {
+      display: none !important;
+    }
+  .bg-data-estatus{
+    width:auto;
+    height: auto;
+    margin-right:1em;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(135deg, #ffffff 0%, #ffffff 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 15px;
+    opacity: 1;
+    color: #000000 !important;
+    white-space: nowrap;
+  }
+  .bg-connect-celular .bg-data-title-cel {
+    width:auto;
+    height: auto;
+    padding: 2px;
+    white-space: nowrap;
+    
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(99deg, #FFFFFF 21%, #EAEFF4 89%) 0% 0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 25px;
+    opacity: 1;
+    color: #6E7A8E !important;
+  }
+  .bg-connect-celular .btn-nivel-responsive {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(300deg, #FFFFFF 15%, #F9FBFC 35%, #EBEFF4 59%, #EAEFF4 60%);
+    box-shadow: 6px 6px 9px #346DBF36;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.bg-connect-celular .btn-referir-cel{
+  font-size: 12px !important;
+  height: 43px !important;
+  
+}
+.bg-connect-celular .btn-referir-cel span{
+  font-size: 12px !important;
+  
+}
+.select-cel-mes{
+  display: flex;
+}
+.btn-referir-2{
+  margin-top: 1.7em !important;
+  display: flex !important;
+  font-size: 12px !important;
+  height: 50px !important;
+}
+.bg-data-title-cel{
+  margin-bottom: 10px;
+}
+
+  
+  }
+ 
+  @media only screen and (max-width: 450px){
+    .titulo-medio{
+      display: none !important;
+    }
+    .titulo-pequeño{
+      display: flex !important;
+    }
+    .zocoFontXS{
+      font-size: 10px;
+    }
+     .zocoFontSmall {
+      font-size: 10px;
+    }
+    
+     .zocoFontMedium {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: -0.12px;
+    }
+    
+    .zocoFontLarge {
+      font-size: 14px;
+    }
+    
+    .zocoFontXL {
+      font-size: 16px;
+    }
+    .zocoFontXLBold button{
+      font-size: 16px;
+      font-weight: 700;
+    }
+    
+    .zocoFontXXL {
+      font-size: 18px;
+    }
+    .container .bg-connect-celular .comision-cel{
+      margin-top: 1.3em!important;
+      margin-right: 3em !important;
+      display: flex;
+      align-items: center;
+    }
+    .bar-inicio{
+      display: none
+     }
+     .level-progress-cel {
+      display: none !important;
+    }
+  .bg-data-estatus-cel{
+    width:auto !important;
+    height: auto;
+    margin-right:1em;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(135deg, #ffffff 0%, #ffffff 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 15px;
+    opacity: 1;
+    color: #000000 !important;
+    white-space: nowrap;
+  }
+  .bg-connect-celular .bg-data-title-cel {
+    width:auto;
+    height: auto;
+    padding: 2px;
+    white-space: nowrap;
+    
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(99deg, #FFFFFF 21%, #EAEFF4 89%) 0% 0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 25px;
+    opacity: 1;
+    color: #6E7A8E !important;
+  }
+  .bg-connect-celular .btn-nivel-responsive {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(300deg, #FFFFFF 15%, #F9FBFC 35%, #EBEFF4 59%, #EAEFF4 60%);
+    box-shadow: 6px 6px 9px #346DBF36;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.bg-connect-celular .btn-referir-cel{
+  font-size: 12px !important;
+  height: 43px !important;
+  
+}
+.bg-connect-celular .btn-referir-cel span{
+  font-size: 12px !important;
+  
+}
+.select-cel-mes{
+  display: flex;
+}
+.comision-cel .btn-referir-2{
+  margin-top: 3.7em !important;
+  display: flex !important;
+  font-size: 12px !important;
+  height: 50px !important;
+}
+.bg-data-title-cel{
+  margin-bottom: 10px;
+}
+
+  
+  }
+
+
+  @media only screen and (max-width: 420px){
+    .titulo-medio{
+      display: none !important;
+    }
+    .titulo-pequeño{
+      display: flex !important;
+    }
+    .zocoFontXS{
+      font-size: 10px;
+    }
+     .zocoFontSmall {
+      font-size: 10px;
+    }
+    
+     .zocoFontMedium {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: -0.12px;
+    }
+    
+    .zocoFontLarge {
+      font-size: 14px;
+    }
+    
+    .zocoFontXL {
+      font-size: 16px;
+    }
+    .zocoFontXLBold button{
+      font-size: 16px;
+      font-weight: 700;
+    }
+    
+    .zocoFontXXL {
+      font-size: 18px;
+    }
+    .container .bg-connect-celular .comision-cel{
+      margin-top: 0.5em!important;
+      margin-right: 3em !important;
+      display: flex;
+      align-items: center;
+    }
+    .bar-inicio{
+      width: 285px !important;
+      /*width:100em*/
+      margin-top: 20px !important;
+      margin-bottom: 15px;
+      margin-left: 0;
+      margin-right: 2em;
+     }
+     .level-progress-cel {
+      display: none !important;
+    }
+  .bg-data-estatus{
+    width:auto !important;
+    height: auto;
+    margin-right:1em;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(135deg, #ffffff 0%, #ffffff 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 15px;
+    opacity: 1;
+    color: #000000 !important;
+    white-space: nowrap;
+  }
+  .bg-connect-celular .bg-data-title-cel {
+    width:auto;
+    height: auto;
+    padding: 2px;
+    white-space: nowrap;
+    
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(99deg, #FFFFFF 21%, #EAEFF4 89%) 0% 0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 25px;
+    opacity: 1;
+    color: #6E7A8E !important;
+  }
+  .bg-connect-celular .btn-nivel-responsive {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(300deg, #FFFFFF 15%, #F9FBFC 35%, #EBEFF4 59%, #EAEFF4 60%);
+    box-shadow: 6px 6px 9px #346DBF36;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.bg-connect-celular .btn-referir-cel{
+  font-size: 12px !important;
+  height: 43px !important;
+  
+}
+.bg-connect-celular .btn-referir-cel span{
+  font-size: 12px !important;
+  
+}
+.select-cel-mes{
+  display: flex;
+}
+.comision-cel .btn-referir-2{
+  margin-top: 1.4em !important;
+  display: flex !important;
+  font-size: 12px !important;
+  height: 49 !important;
+}
+.bg-data-title-cel{
+  margin-bottom: 10px;
+}
+
+  
+  }
+  @media only screen and (max-width: 400px){
+    .titulo-medio{
+      display: none !important;
+    }
+    .titulo-pequeño{
+      display: flex !important;
+    }
+    .zocoFontXS{
+      font-size: 10px;
+    }
+     .zocoFontSmall {
+      font-size: 10px;
+    }
+    
+     .zocoFontMedium {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: -0.12px;
+    }
+    
+    .zocoFontLarge {
+      font-size: 14px;
+    }
+    
+    .zocoFontXL {
+      font-size: 16px;
+    }
+    .zocoFontXLBold button{
+      font-size: 16px;
+      font-weight: 700;
+    }
+    
+    .zocoFontXXL {
+      font-size: 18px;
+    }
+    .container .bg-connect-celular .comision-cel{
+      margin-top: 0.6em!important;
+      margin-right: 3em !important;
+      display: flex;
+      align-items: center;
+    }
+    .comision-vacio-cel{
+      margin-top: 2em!important;
+      margin-right: 3em !important;
+      display: flex;
+      align-items: center;
+    }
+    .bar-inicio{
+      display: none
+     }
+     .level-progress-cel {
+      display: none !important;
+    }
+  .bg-data-estatus-cel{
+    width:auto !important;
+    height: auto;
+    margin-right:1em;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(135deg, #ffffff 0%, #ffffff 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 15px;
+    opacity: 1;
+    color: #000000 !important;
+    white-space: nowrap;
+  }
+  .bg-connect-celular .bg-data-title-cel {
+    width:auto;
+    height: auto;
+    padding: 2px;
+    white-space: nowrap;
+    
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(99deg, #FFFFFF 21%, #EAEFF4 89%) 0% 0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 25px;
+    opacity: 1;
+    color: #6E7A8E !important;
+  }
+  .bg-connect-celular .btn-nivel-responsive {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(300deg, #FFFFFF 15%, #F9FBFC 35%, #EBEFF4 59%, #EAEFF4 60%);
+    box-shadow: 6px 6px 9px #346DBF36;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.bg-connect-celular .btn-referir-cel{
+  font-size: 12px !important;
+  height: 43px !important;
+  
+}
+.bg-connect-celular .btn-referir-cel span{
+  font-size: 12px !important;
+  
+}
+.select-cel-mes{
+  display: flex;
+}
+.comision-cel .btn-referir-2{
+  margin-top: 1.4em;
+  display: flex !important;
+  font-size: 12px !important;
+  height: 50px !important;
+}
+.bg-data-title-cel{
+  margin-bottom: 10px;
+}
+
+  
+  }
+
+  @media only screen and (max-width: 375px){
+    .titulo-medio{
+      display: none !important;
+    }
+    .titulo-pequeño{
+      display: flex !important;
+    }
+    .zocoFontXS{
+      font-size: 10px;
+    }
+     .zocoFontSmall {
+      font-size: 10px;
+    }
+    
+     .zocoFontMedium {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: -0.12px;
+    }
+    
+    .zocoFontLarge {
+      font-size: 14px;
+    }
+    
+    .zocoFontXL {
+      font-size: 16px;
+    }
+    .zocoFontXLBold button{
+      font-size: 12px;
+      font-weight: 700;
+    }
+    
+    .zocoFontXXL {
+      font-size: 18px;
+    }
+    .container .bg-connect-celular .comision-cel{
+      margin-top: 0.6em!important;
+      margin-right: 3em !important;
+      display: flex;
+      align-items: center;
+    }
+     .bar-inicio{
+      display: none
+     }
+     .level-progress-cel {
+      display: none !important;
+    }
+  .bg-data-estatus-cel{
+    width: auto !important;
+    height: auto;
+    margin-right:1em;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(135deg, #ffffff 0%, #ffffff 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 15px;
+    opacity: 1;
+    color: #000000 !important;
+    white-space: nowrap;
+  }
+  .bg-data-title {
+    width:auto;
+    height: auto;
+    padding: 10px;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(99deg, #FFFFFF 21%, #EAEFF4 89%) 0% 0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 25px;
+    opacity: 1;
+    color: #6E7A8E !important;
+  }
+  .bg-connect-celular .btn-nivel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: linear-gradient(300deg, #FFFFFF 15%, #F9FBFC 35%, #EBEFF4 59%, #EAEFF4 60%);
+    box-shadow: 6px 6px 9px #346DBF36;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+.bg-grafica-celular .btn-nivel-responsive:disabled {
+    opacity: 1 !important; /* Evita que se vean apagados */
+    pointer-events: none !important; /* Evita la interacción sin cambiar el estilo */
+    filter: none !important; /* Elimina cualquier desaturación */
+  }
+  .comision-cel .btn-referir-2{
+    margin-top: 1.5em !important;
+    display: flex !important;
+    font-size: 12px !important;
+    height: 49px !important;
+  }
+  
+  }
+  @media only screen and (max-width: 360px){
+    .titulo-medio{
+      display: none !important;
+    }
+    .titulo-pequeño{
+      display: flex !important;
+    }
+    .zocoFontXS{
+      font-size: 8px;
+    }
+     .zocoFontSmall {
+      font-size: 10px;
+    }
+    
+     .zocoFontMedium {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: -0.12px;
+    }
+    
+    .zocoFontLarge {
+      font-size: 12px;
+    }
+    
+    .zocoFontXL {
+      font-size: 12px;
+    }
+    .zocoFontXLBold button{
+      font-size: 12px;
+      font-weight: 700;
+    }
+    
+    .zocoFontXXL {
+      font-size: 13px;
+    }
+    .container .bg-connect-celular .comision-cel{
+      margin-top: 0.8em!important;
+      margin-right: 3em !important;
+      display: flex;
+      align-items: center;
+    }
+     .bar-inicio{
+      display: none
+     }
+     .level-progress-cel {
+      display: none !important;
+    }
+  .bg-data-estatus-cel{
+    width: auto !important;
+    height: auto;
+    margin-right:1.5em;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(135deg, #ffffff 0%, #ffffff 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 15px;
+    opacity: 1;
+    color: #000000 !important;
+    white-space: nowrap;
+  }
+  .bg-data-title {
+    width:auto;
+    height: auto;
+    padding: 10px;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(99deg, #FFFFFF 21%, #EAEFF4 89%) 0% 0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 25px;
+    opacity: 1;
+    color: #6E7A8E !important;
+  }
+  .bg-connect-celular .btn-nivel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: linear-gradient(300deg, #FFFFFF 15%, #F9FBFC 35%, #EBEFF4 59%, #EAEFF4 60%);
+    box-shadow: 6px 6px 9px #346DBF36;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+.bg-grafica-celular .btn-nivel-responsive:disabled {
+    opacity: 1 !important; /* Evita que se vean apagados */
+    pointer-events: none !important; /* Evita la interacción sin cambiar el estilo */
+    filter: none !important; /* Elimina cualquier desaturación */
+  }
+  .bg-connect-celular .btn-referir{
+    font-size: 10px;
+    width: 400px !important;
+    margin-left: 130px;
+  }
+  
+  .comision-cel .btn-referir-2{
+    margin-top: 2.2em !important;
+    display: flex !important;
+    font-size: 12px !important;
+    height: 49px !important;
+  }
+  .bg-data-title-cel{
+    margin-bottom: 10px;
+  }
+  
+  }
+  @media only screen and (max-width: 350px){
+    .titulo-medio{
+      display: none !important;
+    }
+    .titulo-pequeño{
+      display: flex !important;
+    }
+    .zocoFontXS{
+      font-size: 8px;
+    }
+     .zocoFontSmall {
+      font-size: 10px;
+    }
+    
+     .zocoFontMedium {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: -0.12px;
+    }
+    
+    .zocoFontLarge {
+      font-size: 12px;
+    }
+    
+    .zocoFontXL {
+      font-size: 12px;
+    }
+    .zocoFontXLBold button{
+      font-size: 12px;
+      font-weight: 700;
+    }
+    
+    .zocoFontXXL {
+      font-size: 12px;
+    }
+    .container .bg-connect-celular .comision-cel{
+      margin-top: 0.7em !important;
+    }
+     .bar-inicio{
+      display: none
+     }
+     .level-progress-cel {
+      display: none !important;
+    }
+  .bg-data-estatus-cel{
+    width: auto !important;
+    height: auto;
+    margin-right:1.5em;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(135deg, #ffffff 0%, #ffffff 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 15px;
+    opacity: 1;
+    color: #000000 !important;
+    white-space: nowrap;
+  }
+  .bg-data-title {
+    width:auto !important;
+    height: auto;
+    padding: 10px;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(99deg, #FFFFFF 21%, #EAEFF4 89%) 0% 0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 25px;
+    opacity: 1;
+    color: #6E7A8E !important;
+  }
+  .bg-connect-celular .btn-nivel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: linear-gradient(300deg, #FFFFFF 15%, #F9FBFC 35%, #EBEFF4 59%, #EAEFF4 60%);
+    box-shadow: 6px 6px 9px #346DBF36;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+.bg-grafica-celular .btn-nivel-responsive:disabled {
+    opacity: 1 !important; /* Evita que se vean apagados */
+    pointer-events: none !important; /* Evita la interacción sin cambiar el estilo */
+    filter: none !important; /* Elimina cualquier desaturación */
+  }
+  .bg-connect-celular .btn-referir{
+    font-size: 10px;
+    width: 400px !important;
+    margin-left: 130px;
+  }
+  
+  .comision-cel .btn-referir-2{
+    margin-top: 2.2m !important;
+    display: flex !important;
+    font-size: 12px !important;
+    height: 49px !important;
+  }
+  .bg-data-title-cel{
+    margin-bottom: 10px;
+  }
+  
+  }
+  @media only screen and (max-width: 320px){
+    .titulo-medio{
+      display: none !important;
+    }
+    .titulo-pequeño{
+      display: flex !important;
+    }
+    .zocoFontXS{
+      font-size: 8px;
+    }
+     .zocoFontSmall {
+      font-size: 10px;
+    }
+    
+     .zocoFontMedium {
+      font-size: 10px;
+    }
+    
+    .zocoFontLarge {
+      font-size: 10px;
+    }
+    
+    .zocoFontXL {
+      font-size: 10px;
+    }
+    .zocoFontXLBold button{
+      font-size: 12px;
+      font-weight: 700;
+    }
+    
+    .zocoFontXXL {
+      font-size: 12px;
+    }
+    .bg-grafica-celular .comision{
+      margin-top: 4em!important;
+      margin-right: 3em !important;
+      display: flex;
+      align-items: center;
+    }
+    .container .bg-connect-celular .comision-cel{
+      margin-top: 0.8em !important;
+    }
+    .bar-inicio{
+      display: none
+     }
+     .level-progress-cel {
+      display: none !important;
+    }
+  .bg-data-estatus-cel{
+    width:auto !important;
+    height: auto;
+    margin-right:2em;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(135deg, #ffffff 0%, #ffffff 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 15px;
+    opacity: 1;
+    color: #000000 !important;
+    white-space: nowrap;
+  }
+  .iconBag {
+    font-size: 10px !important;
+    width: 25px !important;
+    
+  }
+  .bg-data-title {
+    width:auto;
+    height: auto;
+    padding: 10px;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(99deg, #FFFFFF 21%, #EAEFF4 89%) 0% 0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 25px;
+    opacity: 1;
+    color: #6E7A8E !important;
+  }
+  .bg-connect-celular .btn-nivel-responsive {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: linear-gradient(300deg, #FFFFFF 15%, #F9FBFC 35%, #EBEFF4 59%, #EAEFF4 60%);
+    box-shadow: 6px 6px 9px #346DBF36;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+  .btn-nivel:disabled {
+    opacity: 1 !important; /* Evita que se vean apagados */
+    pointer-events: none !important; /* Evita la interacción sin cambiar el estilo */
+    filter: none !important; /* Elimina cualquier desaturación */
+  }
+
+  .bg-connect-celular .btn-referir{
+    
+    width: 155px;
+    margin-left: 150px;
+  }
+  .bg-connect-celular .btn-referir span{
+    font-size: 10px;
+    
+    
+  }
+  .comision-cel .btn-referir-2{
+    margin-top: 2.2em;
+    display: flex !important;
+    font-size: 12px !important;
+    height: 43px !important;
+  }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .contenedor-panel-control-facturacion-dark {
+      width: 100% !important;
+      height: 340px;
+      background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0%
+        0% no-repeat padding-box;
+      box-shadow: 5px 4px 16px #0c0c0c !important;
+      border-radius: 30px !important;
+      opacity: 1;
+    }
+  }
+  
+  @media only screen and (max-width: 340px) {
+    .contenedor-panel-control-facturacion-dark {
+      width: 100% !important;
+      height: 360px;
+      background: transparent linear-gradient(97deg, #292b2f 0%, #16181a 100%) 0%
+        0% no-repeat padding-box;
+      box-shadow: 5px 4px 16px #0c0c0c !important;
+      border-radius: 30px !important;
+      opacity: 1;
+    }
+  }
+  
+  
+  /* .contenedor-panel-control-asesores-2 {
+    width: 125% !important;
+    height: 130px;
+    background: transparent linear-gradient(97deg, #ffffff 0%, #e5e8ee 100%) 0% 0%
+      no-repeat padding-box !important;
+    box-shadow: 5px 4px 16px #d0d7e2 !important;
+    border-radius: 50px !important;
+    opacity: 1;
+  } */
+  
+  .comision-vacio-cel{
+    margin-top: 1em!important;
+    margin-right: 1em !important;
+    display: flex;
+    align-items: center;
+  }
+  .bg-data-estatus-cel{
+    width:170px;
+    height: auto;
+    margin-right:1em;
+   
+    /* margin-bottom: 55px !important; */
+    /* padding: 15px; */
+    background: transparent linear-gradient(135deg, #ffffff 0%, #ffffff 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 15px;
+    opacity: 1;
+    color: #000000 !important;
+  }
+  .bg-data-comision{
+    width:auto;
+    height: auto;
+    margin-right:1em;
+   
+    /* margin-bottom: 55px !important; */
+    padding: 1em; 
+    background: transparent linear-gradient(135deg, #ffffff 0%, #ffffff 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 5px 4px 16px #d0d7e2;
+    border-radius: 15px;
+    opacity: 1;
+    color: #6E7A8E !important;
+  }
+  .span-level2{
+    margin-right: 3em !important;
+  }
+  .span-level1{
+    margin-right: 3em !important;
+  }
+  .span-facturacion{
+    margin-left: 1em;
+  }
+
+  .span-facturacion1{
+    margin-left: 1em;
+  }
+
+  

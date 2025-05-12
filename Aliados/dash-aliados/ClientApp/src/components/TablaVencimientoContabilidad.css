@@ -1,0 +1,30 @@
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .custom-table thead th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .custom-table th, .custom-table td {
+    border: 1px solid #dee2e6;
+    padding: .75rem;
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  .custom-table thead th[rowspan], .custom-table thead th[colspan] {
+    border-bottom: 3px solid white; 
+  }
+
+  .btn-descargar-archivos-contabilidad {
+    width: 100% !important;
+    background: #b4c400 0% 0% no-repeat padding-box !important;
+    border-radius: 30px !important;
+    opacity: 1 !important;
+  }
