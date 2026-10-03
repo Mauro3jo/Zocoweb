@@ -23,7 +23,7 @@
     "jspdf-autotable": "^3.8.1",
     "leaflet": "^1.9.4",
     "merge": "^2.1.1",
-    "moment": "^2.30.1",
+    "moment": "^2.31.0",
     "oidc-client": "^1.11.5",
     "papaparse": "^5.4.1",
     "react": "^18.2.0",
